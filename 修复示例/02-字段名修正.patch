@@ -1,0 +1,10 @@
+--- a/common/court_positions/types/<第三方文件>.txt
++++ b/common/court_positions/types/<第三方文件>.txt
+@@ -1,6 +1,6 @@
+ 	court_position_type = {
+ 		# ...
+-		candidate_score = {
++		ai_candidate_score = {
+ 			value = 10
+ 			add = {
+ 				if = { limit = { is_adult = yes } add = 5 }

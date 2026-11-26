@@ -1,0 +1,17 @@
+# 内部文档，不发布
+_internal/
+
+# 系统与工具
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/
+
+# 编辑器
+.vscode/
+.idea/
+
+# 临时文件
+*.tmp
+*.bak

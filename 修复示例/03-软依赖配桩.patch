@@ -1,0 +1,15 @@
+--- a/common/scripted_triggers/<文件>.txt
++++ b/common/scripted_triggers/<文件>.txt
+@@ -1,4 +1,11 @@
+-# 这个 trigger 由另一个 mod 提供；本 mod 在文件里直接调用它
++# 这个 trigger 由另一个 mod 提供。
++# 解析期就要知道它是谁 -> 给一个中性桩（声明存在，默认不成立）。
++# 对方定义排序在后时可接管（LIOS）。
++# 注意：桩只能救「标识符位」，救不了作用域错和数据键（见 02 章 §四）。
++some_other_mod_trigger = {
++	always = no
++}
++
+ some_new_trigger = {
+ 	TARGET = scope:target
+ }

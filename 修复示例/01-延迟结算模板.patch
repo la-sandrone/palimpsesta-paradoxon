@@ -1,0 +1,47 @@
+--- a/common/on_action/zz_my_deferred_fix.txt
++++ b/common/on_action/zz_my_deferred_fix.txt
+@@ -0,0 +1,44 @@
++# 文件名: zz_my_deferred_fix.txt
++# 摘要: 让「必须晚于其它效果」的初始化逻辑拥有确定的执行时机。
++# 依赖: 无
++#
++# 为什么需要它：
++#   on_action 的 effect 槽与 on_actions 列表是【并发】执行的，先后不保证。
++#   任何「我的效果必须晚于别人的效果」的需求，都不能靠 on_game_start 直接做。
++#   唯一可靠手段是延迟：trigger_event + days。
++#
++# 867 / 1066 开局都是 1 月 1 日，所以：
++#   days = 1   -> 1 月 2 日  : 开机当天所有并发效果已结算完
++#   days = 29  -> 1 月 30 日 : 一月的月度维护也跑完了（征召/经济/控制度）
++#
++# 用法：把下面两个 action 名改成自己的，然后在 my_deferred_fix 里写真正的逻辑。
++
++on_game_start = {
++	on_actions = { my_deferred_setup }
++}
++
++# 只负责排队，不干活
++my_deferred_setup = {
++	effect = {
++		trigger_event = {
++			on_action = my_actual_fix
++			days = 1
++		}
++	}
++}
++
++# 真正干活的地方：此时开机当天的一切都已完成，顺序确定
++my_actual_fix = {
++	effect = {
++		# 例：只在目标存在时才改（此时它一定已经存在了）
++		if = {
++			limit = { exists = rite:byzantine_rite }
++			rite:byzantine_rite = {
++				if = {
++					limit = { NOT = { rite_has_doctrine = doctrine_divorce_allowed } }
++					change_rite_doctrine = doctrine_divorce_allowed
++				}
++			}
++		}
++	}
++}
