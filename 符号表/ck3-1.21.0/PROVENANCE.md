@@ -9,6 +9,8 @@
 |---|---|
 | 游戏版本 | **1.21.0.3** |
 | 版本证据 | `debug.log`：`Feeding game version into checksum: 1.21.0.3` |
+| 构建哈希 | `0066127f2f020ce83d49bd32262629f94c3031e7`（短 `0066127f2f020`，取自 `code_revisions.log`） |
+| game_timestamp | 2026-11-19 11:25:49 +0000 |
 | 分支串（exe 内嵌） | `titus/release/1.21.0` |
 | exe mtime | 2026-11-19 22:57:19 +0800 |
 | exe size | 114758264 |
@@ -95,7 +97,7 @@ add_great_building / add_special_building         ->  这条线上被 $DISTRICT_
 
 | 缺口 | 说明 |
 |---|---|
-| 构建哈希 | 抓取时 `logs/code_revisions.log` 是 **0 字节**（游戏还在运行，未写出）。若之后补到，应更新本节 |
+| ~~构建哈希~~ | 已补：游戏正常退出后 `code_revisions.log` 写出，哈希记在版本表里 |
 | DLC 清单未逐条记录 | 只记了「30 个目录 / 0 个被禁用」；逐个 DLC 名与版本未入档 |
 | 是否为「当前版本」 | 依赖 exe 指纹 `859f0d38…`；若本体再次更新，本份即成为历史版本，请勿当作现装版本 |
 
