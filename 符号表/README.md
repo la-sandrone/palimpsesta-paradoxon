@@ -22,11 +22,12 @@
 
 ```
 符号表/
-├── ck3-1.20.1/            CK3 1.20.1.2，7 个文件
+├── ck3-1.20.1/            CK3 1.20.1.2，7 个文件（无 mod 未证）
+├── ck3-1.21.0/            CK3 1.21.0.3，7 个文件（无 mod + 全 DLC，有证明）
 └── stellaris-4.5.3/       Stellaris Cygnus v4.5.3，5 个文件
 ```
 
-三条规矩：
+三条规矩（其中第 2 条在 1.21 那份额外补了一条：**DLC 也要全开**，因为 DLC 同样是符号来源）：
 
 1. **目录名 = `<游戏>-<版本>`**，版本取自 exe 内嵌串或 `code_revisions.log`，不取 `supported_version`。
 2. **带 mod 的导出必须在目录名或 `PROVENANCE.md` 里写明**。干净基线与污染基线混在一起，这份归档就废了。
@@ -91,12 +92,13 @@ python3 tools/parse_script_docs.py 符号表/stellaris-4.5.3 -o /tmp/symbols-sx.
 
 ---
 
-## 目前有的两份
+## 目前有的几份
 
 | 目录 | 游戏版本 | 文件数 | 条目数 | 干净吗 |
 |---|---|---|---|---|
 | `ck3-1.20.1/` | 1.20.1.2（Crozier） | 7 | 8942 | 未发现污染，但**没有无 mod 重跑对比**（见其 PROVENANCE） |
 | `stellaris-4.5.3/` | Cygnus v4.5.3 | 5 | 4 万8209（含 4 万5599 个 modifier） | ✅ 无 mod（`enabled_mods` 为空） |
+| `ck3-1.21.0/` | 1.21.0.3 | 7 | 10056 | ✅ 无 mod + **全 DLC**（`dlc_load.json` 原文随档） |
 
 每份目录里的 `PROVENANCE.md` 记录：版本、构建号、导出时间与方式、是否含 mod、每文件行数与条目数、sha256。
 
