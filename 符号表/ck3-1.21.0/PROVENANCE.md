@@ -17,6 +17,7 @@
 | exe sha256（前 32 位） | `859f0d380098adcb130eb9d453458222` |
 | 导出时间 | 2026-11-27 08:07:21 |
 | 导出方式 | `-debug_mode` 启动 + 控制台 `script_docs` |
+| **UI 语言** | `l_simp_chinese`（`pdx_settings.txt`）⚠️ 影响字节，见下 |
 | **是否含 mod** | **否**（见下） |
 
 ## 「无 mod」的证明
@@ -115,6 +116,20 @@ add_great_building / add_special_building         ->  这条线上被 $DISTRICT_
 
 > **这份差异表只说明「名字层面变了什么」，不说明「行为怎么变」。**
 > 后者只能实测。
+
+## ⚠️ UI 语言会改变字节（实测）
+
+导出里的列表字段用**本地化连接词**拼出来。本机 UI 语言 `l_simp_chinese`，所以：
+
+| 文件 | 非 ASCII 行数 | 例 |
+|---|---|---|
+| `modifiers.log` | **198** | `Use areas: character， province，以及 county` |
+| `triggers.log` | 2 | `Traits: Valid DLCs: West Slavic Attire， Tours and Tournaments，...` |
+
+⇒ 同一版本、同一配置，**换 UI 语言导出会得到不同字节**（那 200 行变成 `, and ...,`）。
+⇒ 所以跨归档比对之前，先确认两边 UI 语言一致；不一致的地方全是逗号，不是内容。
+
+---
 
 ## 已知缺口
 

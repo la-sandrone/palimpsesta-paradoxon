@@ -13,6 +13,7 @@
 | DLC | **全开**（`disabled_dlcs: []`） |
 | 导出时间 | 2026-11-27 08:17:31 |
 | 导出方式 | `-debug_mode` + 控制台 `script_docs` |
+| **UI 语言** | `l_simp_chinese`（`pdx_settings.txt`）⚠️ 影响字节，见下 |
 
 名册原文（`dlc_load.json`）：
 
@@ -120,6 +121,20 @@ Unop 覆盖了 533 个文件，冲突日志**一条都没记**。
 冲突日志只记「不同文件定义了同一个条目」。
 
 ⇒ 「冲突日志干净」和「没有覆盖」是两件完全不同的事 —— 这次拿到了一个干净的实证。
+
+## ⚠️ UI 语言会改变字节（实测）
+
+导出里的列表字段用**本地化连接词**拼出来。本机 UI 语言 `l_simp_chinese`，所以：
+
+| 文件 | 非 ASCII 行数 | 例 |
+|---|---|---|
+| `modifiers.log` | **198** | `Use areas: character， province，以及 county` |
+| `triggers.log` | 2 | `Traits: Valid DLCs: West Slavic Attire， Tours and Tournaments，...` |
+
+⇒ 同一版本、同一配置，**换 UI 语言导出会得到不同字节**（那 200 行变成 `, and ...,`）。
+⇒ 所以跨归档比对之前，先确认两边 UI 语言一致；不一致的地方全是逗号，不是内容。
+
+---
 
 ## 已知缺口
 
