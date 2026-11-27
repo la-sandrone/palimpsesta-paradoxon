@@ -25,7 +25,8 @@
 ├── ck3-1.20.1/            CK3 1.20.1.2，7 个文件（无 mod 未证）
 ├── ck3-1.21.0/            CK3 1.21.0.3，7 个文件（无 mod + 全 DLC，有证明）
 ├── ck3-1.21.0+unop-9.0.28/  同上 + Unop 9.0.28，**只存 3 个差异文件**（工作基线）
-└── stellaris-4.5.3/       Stellaris Cygnus v4.5.3，5 个文件
+├── stellaris-4.5.3/       Cygnus v4.5.3，5 个文件
+└── stellaris-4.6.0/       Corona Borealis v4.6.0，5 个文件（无 mod + 全 DLC，有证明）
 ```
 
 四条规矩（第 2 条在 1.21 那份额外补了一句：**DLC 也要全开**，因为 DLC 同样是符号来源）：
@@ -102,6 +103,7 @@ python3 tools/parse_script_docs.py 符号表/stellaris-4.5.3 -o /tmp/symbols-sx.
 |---|---|---|---|---|
 | `ck3-1.20.1/` | 1.20.1.2（Crozier） | 7 | 8942 | 未发现污染，但**没有无 mod 重跑对比**（见其 PROVENANCE） |
 | `stellaris-4.5.3/` | Cygnus v4.5.3 | 5 | 4 万8209（含 4 万5599 个 modifier） | ✅ 无 mod（`enabled_mods` 为空） |
+| `stellaris-4.6.0/` | Corona Borealis v4.6.0 | 5 | 5 万0163（含 4 万7400 个 modifier） | ✅ 无 mod + 全 DLC（名册原文随档） |
 | `ck3-1.21.0/` | 1.21.0.3 | 7 | 10056 | ✅ 无 mod + **全 DLC**（`dlc_load.json` 原文随档） |
 | `ck3-1.21.0+unop-9.0.28/` | 1.21.0.3 + Unop 9.0.28 | **3**（其余 4 个与纯本体逐字节相同） | 10060 | 工作基线；只存差异文件 |
 

@@ -39,16 +39,27 @@ def load(d, game):
 
 
 def compare(a, b):
-    """返回 (状态, 明细)"""
+    """返回 (状态, 明细)
+
+    "新增 / 消失" 按名字算；"同名内容变" 是名字还在、但 scope/doc/props 变了。
+    三者分开，否则「同名但内容改了」会被误读成「删了一个又加了一个」。
+    """
     if a == b:
         return "相同（含顺序）", {}
     if sorted(a) == sorted(b):
-        # 同多重集合：只有顺序不同
         return "仅顺序不同", {}
     sa, sb = set(a), set(b)
-    only_b = sorted(sb - sa)
-    only_a = sorted(sa - sb)
-    return "内容不同", {"新增": only_b, "消失": only_a}
+    na = set(k[0] for k in a)
+    nb = set(k[0] for k in b)
+    added = sorted(nb - na)
+    removed = sorted(na - nb)
+    common_names = na & nb
+    changed = []
+    for n in common_names:
+        if set(k for k in a if k[0] == n) != set(k for k in b if k[0] == n):
+            changed.append(n)
+    changed.sort()
+    return "内容不同", {"新增": added, "消失": removed, "同名内容变": changed}
 
 
 def main():
@@ -84,12 +95,15 @@ def main():
         print("%-26s %8d %8d  %s" % (f, len(a), len(b), state))
         if state == "内容不同":
             worst = 1
-            print("      新增 %d / 消失 %d" % (len(detail["新增"]), len(detail["消失"])))
+            print("      名字新增 %d / 名字消失 %d / 同名内容变 %d" % (
+                len(detail["新增"]), len(detail["消失"]), len(detail["同名内容变"])))
             if args.verbose:
-                for k in detail["新增"][:20]:
-                    print("      + %s" % k[0])
-                for k in detail["消失"][:20]:
-                    print("      - %s" % k[0])
+                for n in detail["新增"][:20]:
+                    print("      + %s" % n)
+                for n in detail["消失"][:20]:
+                    print("      - %s" % n)
+                for n in detail["同名内容变"][:20]:
+                    print("      ~ %s" % n)
     print("-" * 72)
     print("结论：%s" % ("存在内容差异" if worst else "无内容差异（顺序差异不算）"))
     return worst
