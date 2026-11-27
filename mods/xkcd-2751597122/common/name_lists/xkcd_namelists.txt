@@ -1,0 +1,122 @@
+﻿### xkcd 1864 Names
+xkcd_names = {
+	randomized = no
+	alias = "xkcd"
+
+	ship_names = {
+		
+		#Vanilla classes
+		
+		generic = {
+			"Star Destroyer" "Rebel Ship" "Freedom of the Seas" "Ship with buckets" "Seawise Giant" "Deep Water" "Perfect Storm" "Andrea Gail" "Model Sailing Ship" "Ship of Theseus" "Same Ship" "The Ship" "Reaver" "Pirate Ship" "Galactica" "The Children of Tama Tamarian" "Sky Toucher" "Broken Ship" "Viking Ship" "Crew Bunks" "Millennium Falcon" "Vingilot" "Pod Bay Doors" "Severely Damaged Bow" "Ship to the West" "Rocket Ship" "Exhibit" "Voyager 1" "Voyager 2" "Interstellar Ship" "Sun Restarter" "All Doors Spaceship" "Serenity" "Odyssey Two" "Odyssey" "Europa" "Outland" "Ghost Ship" "Mary Celeste" "Megan on a Ship" "Vorcha" "Ithaca" "Ship" "Spaceship" "Evil Spaceship" "" # search for ship in explain xkcd wiki until 1350 Lorenz...
+		}
+		corvette = {}
+		destroyer = {}
+		cruiser = {}
+		battleship = {}
+		titan = {}
+		
+		science = {}
+		colonizer = {}
+		constructor = {}
+
+		mining_station = {}
+		research_station = {}
+		#terraform_station = {}
+		observation_station = {}
+
+		military_station_small = {}
+		ion_cannon = {}
+
+	}
+
+	fleet_names = {
+		random_names = {
+			"The Thousand Spires" "Big Mauve" "The Salad Bowl" "The Mobius Strip" "The Big Wheel" "Lorde's Fen" "The Empty Set"
+		}
+		sequential_name = XKCD_FLEET_NAME_SEQ
+	}
+	army_names = {
+		assault_army = {
+			random_names = {
+				"Northlanders" "Fair Folk" "Honey Barons" "Lake Dwellers" "Treasurers" "Swamp Watchers" "Dream Farmers" "Wellfolk"
+				"Rockeaters" "Forgotten Royals" "Remote Clients" "Barrow-Clerks" "The People of Land and Sky"
+			}
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"New York" "The Hot Tamale" "St. Louis" "The Gateway Arch" "The Winged City" "The Gold Trombone" "Castleopolis" "The Kissing Kingdom" "Sandland"
+				"The High Place" "Ol' Ironhook" "The Graveyard of Kings" "Bloomtown" "Lantern City USA" "The City of Many Daughters" "The Glass Cradle" "The Road Source"
+				"London Prime" "Hamtown" "God's Boudoir" "The Glittering Swamp" "The Steel Forest" "The Land of Trains and Fog" "The Meeting Place" "The Dark Star"
+				"The Walled Garden" "Skin City" "The Horse Rotary" "Turkeytown" "The Naked Towers" "The Meta-City" "The Urban Orb" "The City of Angles" "Bird City USA"
+				"The City of Seven Crowns" "Hilltopia" "Bug City" "The Bottomless Cup" "The Last Town" "Ghost Harbor"
+			}
+		}
+		pc_desert = {
+			names = {}
+		}
+		pc_savannah = {
+			names = {}
+		}
+		pc_tropical = {
+			names = {}
+		}
+		pc_arid = {
+			names = {}
+		}
+		pc_continental = {
+			names = {}
+		}
+		pc_gaia = {
+			names = {}
+		}
+		pc_ocean = {
+			names = {}
+		}
+		pc_tundra = {
+			names = {}
+		}
+		pc_arctic = {
+			names = {}
+		}
+		pc_alpine = {
+			names = {
+			}
+		}
+		pc_nuked = {
+			names = {
+			}
+		}
+		pc_ai = {
+			names = {
+			}
+		}
+		pc_machine = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+
+	character_names = {
+		default = {
+	        full_names_male = {
+	            "White Hat" "Beret Guy" "Cueball" Hairy "Black Hat" "Barrel Boy" "Little Bobby Tables" Rob "Knit Cap" "Cory Doctorow" "David"
+	            "Donald Knuth" James "Nate Silver" "Nathan Fillion" "Randall Munroe" "Richard Stallman" "Scott" "D. B. Cooper"
+	        }
+	        full_names_female = {
+	            Megan Ponytail Blondie Danish "Barrel Girl" "Beret Girl" "Elaine Roberts" Hairbun "Miss Lenhart" "Mrs. Roberts"
+	            "Science Girl" "Amelia Earhart" "Jewel Staite" "Sarah" "Summer Glau" 
+	        }
+    
+		}
+	}
+}

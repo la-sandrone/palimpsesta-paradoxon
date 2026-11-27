@@ -1,0 +1,426 @@
+﻿### Roman_Names_1
+ROM1 = {	
+	### SHIPS
+
+	ship_names = {
+	
+		generic = {
+		Acestes Achaemenides Achates Aeolus Aletes Anchises Andromache Antiphates Ascanius Aventinus Butes 
+		Caieta Capys Catillus Clonius Creusa Silvius Dardanus Diomedes Drances Elymus Entellus Euryalus Evander
+		Helenus Latinus Lausus Lavinia Mimas Misenus Mnestheus Nisus Ornytus Palinurus Pallas Pandarus 
+		Picus Polites Ripheus Salius Tarchon
+		}
+	
+		corvette = {
+		"Aquae Sulis" "Bannaventa" "Calleva Atrebatum" "Camulodunum" "Causennae" "Corinium" "Corstopitum" 
+		"Deva Victrix" "Dubris" "Durnovaria" "Durobrivae" "Durolipons" "Durovernon" "Eboracum" "Glevum"
+		"Isca Dumnoniorum" "Isurium Brigantum" "Lactodorum" "Letocetum" "Lindum" "Lindinis" "Londinium"
+		"Manduessedum" "Mediolanum" "Noviomagus Reginorum" "Ratae Coritanorum" "Tripontium" "Venta Belgarum"
+		"Venta Icenorum" "Verulamium" "Viroconium Cornoviorum" "Albaniana" "Coriovallum" "Viroviacum"
+		"Mosa Trajectum" "Oppidum Batavorum" "Trajectum ad Rhenum" "Atuatuca Tungrorum" "Camasiacum" 
+		"Ceuniacum" "Cortoriacum" "Geminiacum" "Hoius Vicus" "Liniacum" "Mauriciacum" "Vicus Leodicus"
+		"Oppidum Atuaticorum" "Orolaunum" "Rothnacum" "Superiacum" "Stirpiacum" "Tornacum" "Umbracum" 
+		"Vuenteka Super Fluvium Therma" "Aquae Mattiacae" "Aquisgranium" "Augusta Treverorum" "Alalia" 
+		"Aurelia Aquensi" "Bonna" "Castellum apud Confluentes" "Mattium" "Moguntiacum" "Novaesium" 
+		"Oppidum Ubiorum" "Rigomagus" "Sorviodurum" "Tolbiacum" "Tricensimae" "Aginnum" "Aquae Sextiae" 
+		"Arausio" "Arelate" "Argentoratum" "Augusta Suessionum" "Augusta Viromanduorum" "Augustodunum" 
+		"Augustodurum" "Augustomagus" "Augustonemetum" "Augustoritum" "Autricum" "Avaricum" "Avenio" 
+		"Besontio" "Burdigala" "Caesarodunum" "Caesaromagus" "Camaracum" "Caranusca" "Carcaso" "Cenabum"
+		"Condate Riedonum" "Condatomagus" "Darioritum" "Decem Pagi" "Divio" "Divodurum" "Duacum" "Bagacum"
+		"Durocortorum Remorum" "Gesoriacum" "Juliomagus" "Lemonum" "Lucus Augusti" "Lusonum" "Lutetia" 
+		"Mediolanum Aulercorum" "Mediolanum Santonum" "Narbo Martius" "Nemetacum Atrebatum" "Nicaea" 
+		"Pons Saravi" "Portus Namnetus" "Reginca" "Ricciacum" "Rotomagus" "Samarobriva" "Tolosa" "Massilia"
+		"Tres Tabernae" "Valentia" "Valentianae" "Vasio Vocontiorum" "Verodunum" "Vesuna" "Vindinium" 
+		"Arbor Felix" "Aventicum" "Augusta Raurica" "Basilea" "Curia" "Genava" "Lousanna" "Octodurum" 
+		"Tenedo" "Turicum" "Vindonissa" "Castri Locus" "Salodurum" "Vorgium" "Tullum Leucorum" "Noviodunum"
+		"Lugdunum Batavorum" "Augusta Vindelicorum" "Noviomagus" "Aelium Cetium" "Brigantium" "Carnuntum"
+		"Iuenna" "Juvavum" "Lentie" "Noreia" "Oenipons" "Ovilava" "Veldidena" "Vindobona" "Virunum"
+		"Abellinum" "Aesim" "Martis" "Aecae" "Aeclanum" Aesernia Agrigentum Aquileia Aquilonia Albintemelium 
+		Altinum Ameria Ammurianum Ancona Antium Apua Arconisium Aricia Ariminum Arretium Aternum Barium 
+		Bauzanum Beneventum Bergomum Ebovium Bononia Boreana Brixellum Brixia Brundisium Butunti Caesena 
+		Caralis "Campus Vassorum" Canusium Capua Casinum Catania Caudium "Centum Cellae" Haenna Hasta 
+		"Civitas Sancti Romuli" Comum Consentia Cremona Croton Cumae Derthona Drepanum Egnatia Fabiranum 
+		"Fanum Fortunae" Firmum Florentia Formiae "Forum Livii" "Forum Popilii" Fulginiae Fundi Genua 
+		Herdonia Heraclea Herculaneum Hispellum Hydruntum Iguvium "Interamna Nahartium" Labellum Lilybaeum 
+		Luca Luceria Lupiae Luna Mantua Mediolanum Mevania Messana Metapontum Metheola Minturnae Mutina 
+		Neapolis Nequinum Nora Novaria Nola Nursia Olmedum Ostium Paestum Panormus Patavium Perusia 
+		Placentia Pisa Pisaurum Pistorium Pollentia "Portus Naonis" Potentia Dicaearchia "Ragusa Ibla"
+		Ravenna "Rhegium Julium" "Regium Lepidi" Roma "Saenna Julia" Salernum Savo Silvium Sinuessa 
+		Sipontum Scylacium Spoletium Stabiae Suasa Sybaris Syracusae Tarentum Tarvisium Tauromenium 
+		"Teate Marrucinorum" Tergeste Tarracina "Thermae Himerenses" Ticinum "Tifernum Tiberinum"
+		Tridentum Tuder Tusculum Uria "Urbinum Mataurense" Vedinum Velia Velitrae Venusia Vercellae Verona 
+		"Vibo Valentia" Vicentia Vigiliae Viglebanum Vigueria Vipitenum Volaterrae "Volsinii Novi"
+		}
+		
+		destroyer = {
+		"Sicilia" "Corsica et Sardinia" "Gallia Cisalpina" "Hispania Citerior" "Hispania Ulterior" "Thracia" 
+		"Macedonia" "Africa" "Asia" "Gallia Transalpina" "Gallia Narbonensis" "Cilicia" "Bithynia" 
+		"Creta et Cyrenaica" "Corduene" "Syria" "Aegyptus" "Achaea" "Hispania Tarraconensis" "Galatia"
+		"Gallia Aquitania" "Gallia Belgica" "Gallia Lugdunensis" "Raetia" "Baetica" "Lusitania" 
+		"Judaea" "Alpes Maritimae" "Cappadocia" "Dalmatia" "Pannonia" "Mauretania Tingitana" "Illyricum"
+		"Mauretania Caesariensis" "Noricum" "Britannia Superior" "Britannia Inferior" "Lycia et Pamphylia" 
+		"Alpes Poeninae" "Alpes Cottiae" "Epirus" "Commagene" "Germania Superior" "Germania Inferior" 
+		"Moesia Superior" "Moesia Inferior" "Arabia" "Dacia Superior" "Dacia Inferior" "Armenia" "Assyria" 
+		"Mesopotamia" "Dacia Porolissensis" "Dacia Apulensis" "Dacia Malvensis" "Numidia" "Osroene"
+		"Alpes Poeninae et Graiae" "Maxima Sequanorum" "Viennensis" "Aquitanica" "Novempopulana" 
+		"Hispania Carthaginiensis" "Hispania Gallaecia" "Maxima Caesariensis" "Valentia" "Libya Superior"
+		"Campania" "Tuscania et Umbria" "Picenum Suburbicarium" "Apulia et Calabria" "Bruttia et Lucania"
+		"Samnium" "Valeria" "Italia Suburbicaria" "Italia Annonaria" "Venetia et Istria" "Aemilia" "Liguria"
+		"Flaminia et Picenum Annonarium" "Africa Proconsularis" "Byzacena" "Sitifensis" "Tripolitania"
+		"Noricum Mediterraneum" "Noricum Ripense" "Savia" "Valeria Ripensis" "Praevalitana" "Libya Inferior"
+		"Dardania" "Dacia Ripensis" "Macedonia Salutaris" "Thessalia" "Epirus Vetus" "Epirus Nova" "Creta"
+		"Oriens" "Europa" "Haemimontus" "Rhodope" "Scythia" "Hellespontus" "Caria" "Lydia" "Lycaonia" 
+		"Phrygia Pacatiana" "Phrygia Salutaris" "Insulae" "Pontus" "Galatia Salutaris" "Paphlagonia" 
+		"Helenopontus" "Pontus Polemoniacus" "Palaestina Salutaris" "Palaestina" "Phoenice" "Pisidia"
+		"Euphratensis" "Isauria" "Cyprus" "Syria Palæstina" "Augustamnica" "Thebais" "Arcadia" 
+		"Germania Magna"  "Phoenice Libanensis" "Honorias" "Dacia Mediterranea" "Flavia Caesariensis"
+		}
+		
+		cruiser = {
+		"Paullus Macedonicus" "Quinctius Flamininus" "Acilius Glabrio" "Aebutius Elva" "Aegidius" 
+		"Aemilius Barbula" "Aemilius Lepidus" "Lucius Antonius" "Antonius Orator" "Marcus Antonius" 
+		"Manius Aquillius" "Flavius Arrianus" "Aulus Plautius" 	"Artorius Castus" "Asinius Pollio" 
+		"Atilius Calatinus" "Attius Varus" "Cornelius Balbus" "Lucilius Bassus" "Ventidius Bassus" 
+		"Brutus Callaicus" "Metellus Macedonicus" "Claudius Caudex" "Claudius Nero" "Titus Lartius"
+		"Claudius Pompeianus" "Domitius Corbulo" "Cornelius Cinna" "Gaius Laelius" "Cornelius Lentulus" 
+		"Cornelius Scipio" "Scipio Asiaticus" "Scipio Barbatus" "Herennius Dexippus" "Domitius Ahenobarbus" 
+		"Gaius Duilius" "Fabius Maximus Rullianus" "Gaius Flaminius" "Fulvius Flaccus" "Fulvius Flaccus"
+		"Fulvius Nobilior" "Hosidius Geta" "Aemilius Lepidus" "Licinius Lucullus" "Livius Salinator" 
+		"Lutatius Catulus" "Manlius Vulso Longus" "Marcius Rutilus" "Marcius Turbo" "Mummius Achaicus"
+		"Valerius Maximianus" "Norbanus Flaccus" "Septimius Odaenathus" "Gnaeus Pompeius" "Ostorius Scapula"
+		"Marcus Perperna" "Calpurnius Piso Caesoninus" "Pompeius Magnus Pius" "Pompeius Strabo" 
+		"Pomponius Secundus" "Cornelius Dolabella" "Lusius Quietus" "Salvidienus Rufus" 
+		"Sempronius Gracchus" "Marcus Sergius" "Julius Severus" "Flavius Silva" "Suetonius Paulinus" 
+		"Sulpicius Galba Maximus" "Syagrius" "Valerius Flaccus" "Corvinus Messalla"
+		}
+		
+		battleship = {
+		"Lucius Siccius Dentatus" "Publius Decius Mus I" "Fabius Maximus" "Marcus Calpurnius Flamma" 
+		"Scipio Aemilianus" "Gnaeus Petreius Atinas" "Lucius Cornelius Sulla" "Quintus Sertorius" 
+		"Gaius Servilius Ahala" "Marcus Furius Camillus" "Lucius Quinctius Cincinnatus" "Titus Augustus"
+		"Marcus Curtius" "Publius Horatius Cocles" "Lucius Icilius" "Verginia" "Lucius Verginius"
+		"Lucretia" "Spurius Lucretius Tricipitinus" "Octavius Mamilius Tusculanus" "Vespasianus Augustus"
+		"Lucius Papirius Cursor II" "Quintus Fabius Maximus Rullianus" "Gaius Mucius Scaevola" 
+		"Publius Sempronius Tuditanus" "Titus Manlius Torquatus" "Publius Decius Mus II" "Flavius Aetius" 
+		"Marcus Valerius Corvus" "Publius Cornelius Scipio Africanus" "Gnaeus Pompeius Magnus" 
+		"Titus Herminius Aquilinus" "Sempronius Densus" "Lucius Junius Brutus" "Publius Valerius Publicola"
+		"Marcus Horatius Pulvillus" "Manius Valerius Maximus" "Lucius Cornelius Sulla Felix" 
+		"Aurelianus Augustus" "Marcus Vipsanius Agrippa" "Aulus Cornelius Cossus" "Claudius Augustus"
+		"Nero Claudius Drusus" "Marcus Licinius Crassus" "Marcus Atilius Regulus" "Appius Claudius Caecus"
+		"Titus Pullo" "Lucius Vorenus" "Germanicus" "Julius Caesar" "Gnaeus Pompeius Magnus" "Hersilia"
+		"Imperator Augustus" "Gaius Marius" "Tiberius Augustus" "Publius Decius Mus III" "Nerva Augustus"
+		"Marcus Claudius Marcellus" "Gaius Marcius Coriolanus" "Lucius Papirius Cursor I" "Romulus"
+		"Trajanus Augustus" "Hadrianus Augustus" "Antoninus Augustus Pius" "Marcus Aurelius Augustus"
+		"Lucius Verus Augustus" "Septimius Severus Augustus" "Gordianus Augustus III" "Gallienus Augustus"
+		"Claudius Gothicus Augustus" "Tacitus Augustus" "Probus Augustus" "Carus Augustus" "Hercules"
+		"Numenarianus Augustus" "Diocletianus Augustus" "Maximianus Augustus" "Constantius Augustus"
+		"Constantinus Augustus" "Maxentius Augustus" "Licinius Augustus" "Julianus Augustus" "Aeneas"
+		"Tullus Hostilius" "Numa Pompilius" "Ancus Marcius" "Servius Tullius" "Acca Larentia" "Faustulus"
+		}
+		
+		science = {
+		"Lucius Mestrius Plutarchus" "Gaius Sulpicius Gallus" "Acoreus" "Adrastus" "Gaius Julius Hyginus" 
+		"Lucilius Junior" "Gaius Plinius Secundus" "Lucius Flavius Arrianus" "Lucius Cassius Dio" 
+		"Flavius Eutropius" "Polybius" "Hypatia" "Strabo" "Athenaeus" "Pappus" "Posidonius" "Titus Livius"
+		"Lucius Annaeus Seneca" "Publius Cornelius Tacitus" "Junius Moderatus Columella" "Cato Sapiens"
+		"Gnaeus Tremellius Scrofa" "Marcus Terentius Varro" "Plinius Caecilius Secundus" "Marcus Manilius"  
+		"Marcus Tullius Cicero" "Flavius Vegetius Renatus" "Publius Vergilius Maro" "Sextus Empiricus"
+		"Antonius Castor" "Aelius Galenus" "Vettius Valens" "Claudius Ptolemy" "Aulus Cornelius Celsus" 
+		}
+		
+		colonizer = {
+		"Colonia Claudia Victricensis" "Colonia Minervia" "Colonia Ulpia Traiana" 
+		"Colonia Claudia Ara Agrippinensium" "Colonia Nemausa" "Colonia Julia Hispellum" 
+		"Colonia Iulia Paterna Arelatensis Sextanorum" "Colonia Aelia Capitolina Hierosoloma"
+		"Colonia Domitiana Lindensium" "Colonia Augusta Achaica Patrensis" "Colonia Sitifis"
+		"Colonia Ulpia Traiana" "Colonia Emerita Augusta" "Colonia Forum Segusiavorum"
+		}
+		
+		constructor = {
+		"Sextus Julius Frontinus" "Caius Sergius Orata" "Marcus Vitruvius Pollio" "Publius Mumius Mumianis"
+		"Publius Fabius Taurus" "Apollodorus" "Lucius Cocceius Auctus" "Lucius Vitruvius Cordo" "Cyrus" 
+		"Hyginus Gromaticus" "Heracleides" "Hermodorus" "Rabirius" "Decriannus"
+		}
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+		sequential_name = MYNL_ROM1_O_SPECULUM
+		}
+	
+		military_station_small = {
+		"Limes Britannicus" "Limes Germanicus" "Limes Arabicus" "Limes Tripolitanus" "Limes Alutanus"
+		"Limes Transalutanus" "Limes Moesiae" "Limes Norici" "Limes Pannonicus" "Limes Saxoniae"
+		"Limes Sarmatiae"
+		}
+	
+		military_station_medium = {
+		"Castellum Fabatianum" "Castellum Menapiorum" "Castellum Tidditanorum" "Castellum Araocelum"
+		"Castellum Fractum" "Castellum Flevum" "Castellum Carvium" "Castellum Praetorium Agrippinae"
+		"Castellum Pucinum"  "Castellum Daesitiatium" "Castellum Divitia" "Castellum Tiberiacum"
+		"Castellum Harenatium" "Castellum Tingitanum" "Castellum Firmanorum" "Castellum Antiochia"
+		"Castellum Aviliobris" "Castellum Regis" "Castellum Noviodunum" "Castellum Divisorium"
+		"Castellum Aquae" "Castellum Auraria Daciae"
+		}
+	
+		military_station_large = {
+		"Castrum Alexandria" "Castrum Babylon" "Castrum Coptos" "Castrum Ammaedara" "Castrum Lambaesis" 
+		"Castrum Thamugas" "Castrum Theveste" "Castrum Aluana" "Castrum Arbeia" "Castrum Banna" 
+		"Castrum Bremenium" "Castrum Burrium" "Castrum Derventio" "Castrum Deva Victrix" "Castrum Legio"
+		"Castrum Isca Augusta" "Castrum Pinnata" "Castrum Vindolanda" "Castrum Trajana" "Castrum Nova" 
+		"Castrum Praetoria Augusta" "Castrum Constantia" "Castrum Augusta Vindelicorum" "Castrum Albana"
+		"Castrum Asturica Augusta" "Castrum Servillia" "Castrum Lucus Augusti" "Castrum Singidunum" 
+		"Castrum Sirmium" "Castrum Nicia" "Castrum Taurinorum" "Castrum Batavorum" "Castrum Vetera" 
+		"Castrum Regina" "Castrum Aelia Capitolina"	"Castrum Maiaense" "Castrum Augusta Raurica" 
+		}
+		
+		transport = {
+		Pugio Gladius Hasta Javelin Pilum Arcus Sagitta "Arcubus Ligneis" Plumbata Lorica Manica Scutum 
+		Parma Cetra Ballista Scorpio Onager Buccina Tribulus
+		}		
+	}
+	
+	fleet_names = {
+		sequential_name = MYNL_ROM1_O_LASSIS_ASTRUM
+	}
+
+
+	###ARMIES
+	army_names = {
+	
+		army_names = {
+		generic = { 
+			sequential_name = MYNL_ROM1_O_LEGIO_LIMITANEI
+		}
+
+		assault_army = {
+			sequential_name = MYNL_ROM1_O_LEGIO_OMITATENSES
+		}
+		
+		slave_army = {
+			sequential_name = MYNL_ROM1_O_AUXILIA_SERVUS
+		}
+		
+		clone_army = {
+			sequential_name = MYNL_ROM1_O_AUXILIA_EFFIGIA
+		}
+		
+		robotic_army = {
+			sequential_name = MYNL_ROM1_O_AUXILIA_MECHANICUM
+		}
+		
+		android_army = {
+			sequential_name = MYNL_ROM1_O_AUXILIA_AUTOMATUM
+		}
+		
+		psionic_army = { 
+			sequential_name = MYNL_ROM1_O_LEGIO_INCURSUS
+		}
+		
+		xenomorph_army = {
+			sequential_name = MYNL_ROM1_O_AUXILLIA_BELLUA
+		}
+		
+		gene_warrior_army = {
+			sequential_name = MYNL_ROM1_O_LEGIO_EXTRAORDINARII
+		}
+	}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+			"Acca Larentia" "Aion" "Aius Locutius" "Angerona" "Antevorta" "Apollo" "Arkeus Ultor" "Cura"
+			"Arimanius" "Averruncus" "Bellona" "Carmenta" "Cardea" "Carna" "Clementia" "Cloacina" 
+			"Concordia" "Devera" "Dius Fidius" "Empanda" "Epona" "Falacer" "Fama" "Fascinus" "Fauna" "Inuus"
+			"Faunus" "Faustitas" "Februus" "Febris" "Ferentina" "Feronia" "Fides" "Fufluns" "Fulgora" "Juno"
+			"Furrina" "Genius" "Gratiae" "Hermaphroditus" "Honos" "Hora" "Indiges" "Intercidona" "Invidia" 
+			"Janus" "Jupiter" "Justitia" "Juventas" "Lares" "Laverna" "Latona" "Levana" "Liberalitas" "Mars"
+			"Libertas" "Lua" "Lucifer" 	"Lucina" "Luna" "Lupercus" "Mana Genita" "Mater Matuta" "Meditrina"
+			"Mercury" "Minerva" "Mithras" "Moneta" "Murcia" "Necessitas" "Nemesis" "Nerio" "Palatua" 
+			"Pilumnus" "Portunes" "Priapus" "Pudicitia" "Quirinus" "Quiritis" "Roma" "Rumina" "Sancus" 
+			"Securitas" "Suadela" "Sulis Minerva" "Tellurus" "Terminus"	"Unxia" "Veritas" "Vica Pota" 
+			"Victoria" "Virtus" 
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			"Aerecura" "Angita" "Cacus" "Discordia" "Disciplina" "Dis Pater" "Lemures" "Letum" "Mantus" 
+			"Mefitis" "Mors" "Morta" "Pluto" "Poena" "Vediovus" "Viduus"
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			"Abundantia" "Bacchus" "Bona Dea" "Cupid" "Decima" "Diana" "Diana Nemorensis" "Edesia" "Flora" 
+			"Fecunditas" "Fornax" "Liber" "Libera" "Mellona" "Mena" "Nascio" "Pomona" "Vaticanus" "Venus"
+			"Voluptas" "Cylebe"
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			"Alernus" "Di Inferi" "Libitina" "Manes" "Mania" "Naenia" "Orcus" "Stata Mater" "Verminus" 
+			"Vulcan"
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			"Aequitas" "Aesculapius" "Anna Perenna" "Annona" "Bonus Eventus" "Bubona" "Caca" "Ceres" "Ops" 
+			"Consus" "Dea Dia" "Dea Tacita" "Egeria" "Felicitas" "Fortuna" "Nona" "Pales" "Pax" "Picumnus" 
+			"Picus" "Proserpina" "Robigo" "Salus" "Saturn" "Silvanus" "Sors" "Spes" "Sterquilinus" 
+			"Terra Mater" "Tranquillitas" "Ubertas" "Vacuna" "Vertumnus" "Vesta" "Virbius"
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			"Acis" "Fons" "Juturna" "Lympha" "Neptune" "Neverita" "Salacia" "Tibernius" "Tibertus" "Venelia" 
+			"Volturnus"
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			"Aura" "Caelus" "Somnus" "Summanus" "Tempestas" "Trivia" "Aquilon" "Septentrio" "Auster" 
+			"Vulturnus" "Favonius" "Corus"
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			"Aurora" "Nox" "Porrima" "Postverta" "Providentia" "Soranus" 
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names_male = { 
+			"Gaius" "Lucius" "Marcus" "Publius" "Quintus" "Titus" "Tiberius" "Sextus" "Aulus" "Decimus" 
+			"Gnaeus" "Spurius" "Manius" "Servius" "Appius" "Numerius" "Vibius" "Primus" "Secundus" "Tertius"
+			"Quartus" "Septimus" "Octavius" "Nonus" "Caeso" "Faustus" "Hostus" "Mettius" "Opiter" "Sertor" 
+			"Statius" "Volesus" "Vopiscus" "Maximus" "Ancus" "Attius" "Herius" "Marius" "Minatus" "Minius" 
+			"Nerius" "Novius" "Numa" "Ovius" "Paccius" "Salvius" "Seppius" "Taurus" "Trebius" "Vettius"
+			}
+			
+			first_names_female = {
+			"Gaia" "Lucia" "Marca" "Publia" "Quinta" "Tita" "Tiberia" "Sexta" "Aula" "Decima" "Gnaea" 
+			"Spuria" "Mania" "Servia" "Appia" "Numeria" "Vibia" "Prima" "Secunda" "Tertia" "Quarta" 
+			"Septima" "Octavia" "Nona" "Caesula" "Fausta" "Hosta" "Mettia" "Statia" "Volusa" "Vopisca" 
+			"Maio" "Mamerca" "Maxima" "Mino" "Paulla" "Attia" "Heria" "Maria" "Minata" "Minia" "Neria" 
+			"Novia" "Ovia" "Paccia" "Salvia" "Seppia" "Taura" "Trebia" "Vettia" "Tanaquil" 
+			}
+			
+			# Always combined with a first name
+			second_names = { 
+			"Menenius Agrippa" "Servilius Ahala" "Domitius Ahenobarbus" "Postumius Albinus" "Postumia Albus" 
+			"Fabius Ambustus" "Villius Annalis" "Cornelius Arvina" "Sempronius Asellio" "Cornelius Asina" 
+			"Acilius Balbus" "Cornelius Balbus" "Lucilius Balbus" "Naevius Balbus" "Cornelius Barbatus" 
+			"Aburius Bassus" "Horatius Barbatus" "Quinctius Barbatus" "Calpurnius Bestia" "Furius Bibaculus"
+			"Sextius Bibaculus" "Calpurnius Bibulus" "Publicius Bibulus" "Sempronius Blaesus" "Fabius Buteo"
+			"Junius Brutus" "Abronius Silo"	"Junius Bubulcus" "Atilius Bulbus" "Claudius Caecus" 
+			"Servilius Caepio" "Julius Caesar" "Coelius Calidus" "Domitius Calvinus" "Veturius Calvus" 
+			"Furius Camillus" "Acilius Caninus" "Ateius Capito" "Papirius Carbo" "Sergius Catilina" 
+			"Hostilius Cato" "Porcius Cato" "Lutatius Catulus" "Papius Celsus" "Cornelius Cethegus" 
+			"Tullius Cicero" "Veturius Cicurinus" "Flaminius Cilo" "Quinctius Cincinnatus" "Cornelius Cinna"
+			"Caecilius Cornutus" "Sulpicius Cornutus" "Valerius Corvinus" "Valerius Corvus" 
+			"Cornelius Cossus" "Pedanius Costa" "Aurelius Cotta" "Furius Crassipes" "Claudius Crassus" 
+			"Licinius Crassus" "Otacilius Crassus" "Veturius Crassus" "Sallustius Crispus" "Aburius Geminus"
+			"Terentius Culleo" "Scribonius Curio" "Papirius Cursor" "Fulvius Curvus" "Caecilius Denter" 
+			"Licinius Dives" "Cornelius Dolabella" "Fabius Dorsuo" "Livius Drusus" "Flavius Fimbria" 
+			"Avianius Flaccus" "Fulvius Flaccus" "Valerius Flaccus" "Decimius Flavus" "Aquilius Florus" 
+			"Apustius Fullo" "Furius Fusus" "Servilius Gemellus" "Veturius Gemellus" "Acilius Glabrio" 
+			"Sempronius Gracchus" "Fabius Gurges" "Cluentius Habitus" "Aebutius Helva" "Manlius Imperiosus" 
+			"Julius Jullus" "Antistius Labeo" "Atinius Labeo" "Fabius Labeo" "Valerius Lactuca" 
+			"Popillius Laenas" "Menenius Lanatus" "Juventius Laterensis" "Cornelius Lentulus" 
+			"Aemilius Lepidus" "Marcius Libo" "Scribonius Libo" "Mamilius Licinus" "Sempronius Longus" 
+			"Sulpicius Longus" "Licinius Lucullus" "Rutilius Lupus" "Licinius Macer" "Publicius Malleolus" 
+			"Aemilius Mamercus" "Claudius Marcellus" "Vergilius Maro" "Antonius Merenda" "Cornelius Merenda"
+			"Cornelius Merula" "Valerius Messalla" "Caecilius Metellus" "Licinius Murena" "Decius Mus" 
+			"Sempronius Musca" "Sempronius Nasica" "Ovidius Naso" "Pinarius Natta" "Caecilius Nepos" 
+			"Claudius Nero" "Cocceius Nerva" "Licinius Nerva" "Gavilius Novellus" "Livius Ocella" 
+			"Furius Pacilus" "Aelius Paetus" "Aemilius Papus" "Sulpicius Paterculus" "Aemilius Paullus" 
+			"Junius Pera" "Fabius Pictor" "Calpurnius Piso" "Munatius Plancus" "Valerius Poplicola" 
+			"Curtius Postumus" "Valerius Potitus" "Sulpicius Praetextatus" "Plautius Proculus" 
+			"Valerius Publicola" "Claudius Pulcher" "Horatius Pulvillus" "Marcius Ralla" "Aemilius Regillus"
+			"Atilius Regulus" "Servilius Rullus" "Livius Salinator" "Junius Scaeva" "Marcius Scaeva" 
+			"Mucius Scaevola" "Quinctius Scapula" "Aemilius Scaurus" "Aurelius Scaurus" "Cornelius Scipio"
+			"Tremelius Scrofa" "Annaeus Seneca" "Junius Silanus" "Sergius Silo" "Sergius Silus" 
+			"Licinius Stolo" "Titius Strabo" "Servilius Structus" "Cornelius Sulla" "Valerius Triarius" 
+			"Curiatius Trigeminus" "Lucretius Trio" "Aelius Tubero" "Julius Tubero" "Postumius Tubertus" 
+			"Hostilius Tubulus" "Sempronius Tuditanus" "Volcatius Tullus" "Papirius Turdus" 
+			"Terentius Varro" "Atilius Varus" "Licinius Varus" "Quinctilius Varus" "Servilius Vatia" 
+			"Cornelius Verres" "Lucretius Vespillo" "Antistius Vetus" "Mamilius Vitulus" "Pomponius Vitulus"
+			"Valerius Volusus" "Accoleius Lariscolus" "Accoleius Euhemerus" "Accoleius Abascantus" 
+			"Aculeius Bachis" "Acerronius Proculus" "Acilius Aviola" "Acilius Lucanus" "Acilius Severus" 
+			"Actorius Naso" "Acutius Nerva" "Aebutius Faustus" "Aebutius Pinnius" "Aebutius Liberalis" 
+			"Aelius Ligus" "Aelius Promotus" "Aelius Gallus" "Aelius Lamia" "Aelius Catus" "Aelius Theon" 
+			"Aelius Sejanus" "Aelius Aristides" "Aelius Fortunatus" "Aelius Marcianus" "Aelius Spartianus" 
+			"Aelius Donatus" "Aemilius Barbulus" "Aemilius Bucus" "Afranius Sygarius" "Albius Carrinus" 
+			"Albinus Paterculus" "Albucius Silus" "Alfenus Varus" "Alfenus Senecio" "Alfenus Avitianus" 
+			"Alfius Flavus" "Alphius Avitus" "Ampius Balbus" "Ancharius Priscus" "Ancharius Soter"
+			"Anicius Praenestinus" "Anicius Gallus" "Anicius Faustus" "Anicius Julianus" "Anicius Paulinus" 
+			"Anicius Probinus" "Anicius Symmachus" "Anicius Olybrius" "Anicius Maximus" "Annaeus Brocchus"
+			"Annaeus Lucanus" "Annaeus Cornutus" "Annaeus Florus" "Calvisius Sabinus" "Calvisius Ruso"
+			"Calvisius Rufus" "Cassius Viscellinus" "Cassius Longinus" "Cassius Severus" "Aquillius Tuscus" 
+			"Aquillius Corvus" "Aquillius Gallus" "Aquillius Julianus" "Aquilius Niger" "Atilius Longus"
+			"Atilius Vergilio" "Atilius Rufus" "Atilius Titianus" "Atilius Serranus" "Claudius Sabinus"
+			"Claudius Centho" "Claudius Canina" "Claudius Asellus" "Claudius Pompeianus" "Cloelius Siculus"
+			"Curtius Peducaeanus" "Curtius Philo" "Fabius Vibulanus" "Fabius Maximus" "Foslius Flaccinator"
+			"Furius Medullinus" "Furius Philus" "Furius Purpureo" "Furius Brocchus" "Geganius Macerinus"
+			"Herminius Aquilinus" "Julius Mento" "Julius Libo" "Lartius Flavus" "Lartius Rufus"
+			"Lucretius Tricipitinus" "Lucretius Gallus" "Lucretius Ofella" "Manlius Cincinnatus"
+			"Manlius Vulso" "Manlius Capitolinus" "Manlius Torquatus" "Manlius Acidinus"
+			"Minucius Augurinus" "Minucius Rufus" "Minucius Thermus" "Minucius Basilus" "Mucius Cordus"
+			"Pinarius Mamercinus" "Postumius Albus" "Postumius Megellus" "Quinctius Capitolinus"
+			"Quinctius Claudus" "Quinctius Flamininus" "Sempronius Atratinus" "Sempronius Sophus"
+			"Sempronius Rutilus" "Sempronius Rufus" "Sergius Esquilinus" "Sergius Fidenas"
+			"Servilius Priscus" "Servilius Geminus" "Servilius Casca" "Sestius Capitolinus"
+			"Sestius Pansa" "Sestius Gallus" "Sulpicius Camerinus" "Sulpicius Peticus" "Sulpicius Rufus"
+			"Sulpicius Saverrio" "Sulpicius Galba" "Tarquinius Priscus" "Tullius Longus" "Tullius Decula"
+			"Tullius Tiro" "Valerius Maximus" "Valerius Laevinus" "Valerius Falto" "Verginius Tricostus"
+			"Tricostus Caeliomontanus" "Tricostus Rutilus" "Veturius Geminus" "Veturius Philo"
+			"Cominius Auruncus" "Cominius Pedarius" "Curiatius Fistus" "Hostilius Mancinus"
+			"Hostilius Saserna" "Junius Pennus" "Junius Blaesus" "Junius Rusticus" "Marcius Rex"
+			"Marcius Censorinus" "Marcius Philippus"
+			}
+			
+			regnal_first_names_male = { 
+			"Gaius" "Tiberius" "Claudius" "Vespasianus" "Titus" "Nerva" "Trajanus" "Hadrianus" "Antoninus" 
+			"Marcus Aurelius" "Lucius Verus" "Septimius Severus" "Gordianus" "Valerianus" "Gallienus"
+			"Aurelianus" "Probus" "Diocletianus" "Maximianus" "Constantius" "Galerius" "Flavius" "Severus"
+			"Maxentius" "Licinius" "Julianus" "Valentinianus" "Valens" "Gratianus" "Maximus" "Theodosius" 
+			"Marcianus" "Majorianus" "Libius Severus" "Anthemius" "Romulus"
+			}
+			
+			regnal_first_names_female = {
+			"Livia Drusilla" "Antonia" "Agrippina" "Sabina" "Claudia" "Domitillia" "Flavia" "Pompeia" 
+			"Ulpia" "Marciana" "Salonia" "Vibia Sabina" "Faustina" "Lucilla" "Crispina" "Manlia" "Fulvia" 
+			"Julia Cornelia" "Aquilla Severa" "Julia Avita" "Sallustia" "Tranquillina" "Marcia" 
+			"Herenia Etruscilla" "Mariana" "Cornelia Salonina" "Sulpicia" "Zenobia" "Severina" "Valeria" 
+			"Constantina" "Albia Dominica" "Pulcheria" "Aelia Eudoxia" "Licinia Eudoxia"
+			}
+			regnal_second_names = { 
+			"Augustus" 
+			}
+		}
+	}
+}

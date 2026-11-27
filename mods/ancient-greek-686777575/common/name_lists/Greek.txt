@@ -1,0 +1,196 @@
+﻿### Ancient Greeks - Ellines
+Greek = {	
+	### SHIPS
+	### Corvettes = Heroes, Kings and Generals
+	### Destroyers = Monsters, Demons and Beasts
+	### Cruisers = Minor Deities and Spirits
+	### Battleships = Primordial Deities, Titans and Gods
+	### Science = Astronomers, Mathematicians and Explorers
+	### Colonizers = Nymphs
+	### Constructors = Engineers and Inventors
+
+	ship_names = {
+	
+		generic = {
+		}
+		corvette = {
+			Pyrros Achilleus Aiakos Aiolos Amfiaros Ariadni Aristaios Asklipios Attis Volina "Kastor Dioskouros" "Pollydefkis Dioskouros" Endymion Ganymidis Glafkos Imithea Iraklis Lampsaki Minos Ino "Foivi Lefkippida" "Ilaeira Lefkippida" Oreithya Palaimon Fylonoi Psychi Avderos Aineias Aias Amfitryon Antilochos Vellerofon Chrysippos Diomedes Elefsis Evnostos Ektor Ikaros Iolaos Iason Meleagros Odysseus Orfeas Pandion Perseas Theseus Alkistis Amymoni Andromachi Andromeda Antigoni Atalanti Vriseis Kaineus Kassandra Kassiopeia Danai Deianeira Ilektra Ifigeneia Evropi Ekavi Eleni Ermioni Ismini Iokasti Mideia Medusa Niovi Pandora Pinelopi Faidra Polyxeni Simili Thraki Aktaios Akastos Admitos Adrastos Aigeus Aigimios Aigyptos Aithlios Aitolos Agamemnon Amfiktyon Argos Atreus Menelaos Avgeas Kadmos Kinyras Onisillos Evagoras Chalkanor Korinthos Kreon Kretheus Dardanos Dimofon Ilektrion Erichthonios Eteoklis Oidipus Lykourgos Solon Kyrros Tilemachos Makedon Megalexandros "Megas Alexandros" "Filippos o Makedon" Olympia Sarpedon Foinikas Telamon Tefkros Agathyrnos Adanos Azanas Aianos Akadimos Akasamenos Akrias Aliartos Amvrakas Andros Antheias Arganthoni Arkas Afidnos Achaios Vargylos Voitos Vouzygis Vyzas Gordys Glafyros Granikos Damaskos Dardanos Illyrios Dekelos Diomos Dymas Daortho Davnos Delfos Evros Ellin "Epeios o Illeios" Erythras Ermion Evdanemos Idonos Illeios Ileus Imathos Ipeiros Thesprotos Thesallos Thiras Iapyx Ialyssos Idaios Ithakos Ismaros Italos Kalydnos Kallopos Kasos Kailenos Kypros Akamas Pafos Kameiros Kavlonas Keroessa Kleitor Kriti Kroton Kragaleas Krios Kroissos Krokonas Ktimenos Kydon Kynaithos Kynos Lakinios Lakios Lefkippos Lefkonas Lindos Lydos Lokros Lykoreas Malos Mantineas Melanippos Messini Minyas "Mopsos o Lapithis" Mikineas Mikini Mylas Myskelos Nafplios Niritos Oaxis Ogkos Oiolykos Opountas Ormenos Orchomenos Pamfylia Pandrosos Patreas Pelasgos Pieros Pisos Pylantas Pyrrichos Raros Rodos Sagaris Saisara Salamina Salmoneas Samonas Sanapi Sardos Sardo Saronas Satyria Selinos Sithon Sikelos Sikinnos Sikyon Siris Smyrna Tainaros Tegeatis Telmissos Trapezeas Trifylos Faliros Fthios Faris Fokos Flegyas Fylakos Chairon "Miltiadis Athinaios" "Leonidas Lakaidemon" "Zenon Kitieus"
+		}
+		
+		destroyer = {
+			Agrios Alkyoneus Chthonios Klytios Enkelados Efialtis Evrymedon Evrytos Gration Ippolytos Leon Mimas Pallas Polyvotis Porfyrion Thoon Thoas Aloadai Otos Anax Antaios Antifatis "Argos Panoplis" Asterios Kakos "Kyklops Vrontis" "Kyklops Argis" "Kyklops Steropis" "Kyklops Polyfimos" Gigenees Geryon "Ekatogxeir Vriareos" "Ekatogxeir Aigaios" "Ekatogxeir Kottos" "Ekatogxeir Gygis" Laistrygones Orion Talos Tityos Typhon Amphisvainia Antaios Arachni Arai Argos Azeus Katovlepas Amikos Asvolos Vienor Chiron Diktys Elatos Ylaios Ylonomi Kyllaros Folos Nessos Perimidis Thavmas Raikos Aiskos Amfithemis Kitios Evryvolos Favnos Glinios Nomeon Orthaon Petraios Fanis Riphonos Spargeos Kitos Kefthonymos Charon Charyvdis Chimera Skylla Krokotas "Diomidis tis Thrakis" Echion "Erinya Alekto" "Erinya Megaira" "Erinya Tisifoni" Gigenis Medusa Gorgon Stheno Evrylai "Grea Deino" "Grea Perso" "Grea Pemfredo" Gryfon Arpia Ippalektryon Ippokampos Ippogrifon "Lernaia Ydra" "Leon tis Nemeas" "Evrymanthios Kapros" Ichthyokentavros Ipotani Kerea Achlys Kovalos "Antifatis o Laistrygon" Androfagos Gorgona Minotavros Kerveros Orthros Onokentavros Ofiotavros Panes Perivoa Filinion Foinix Satyros Sylenos "Drakaina tis Skythias" Sireina Skolopendra Sfingka "Stymfalides Ornithes" Taraxippi Tyfeas Monokeratos "Magissa Kirki" "Magissa Mideia" "Magissa Pasifai" "Lamia tis Korinthou" Empousa Archilamia Mormolykos Lykaon Lykanthropos Pegasos "Chalkydonios Kapros" "Ornithes Areioi" Alektryon Kerkopas "Dionysos Tigris" "Dionysos Panther" Lailaps "Chrysokeros Elafos" "Aetos tou Dios" Aithon "Skiron o Chelonios" "Voreas Anemos" "Evrys Anemos" "Notos Anemos" "Zephyros Anemos" Arion Valios Xanthos Aithon Konavos Flogios Fovos Dimos Lampos Faidon Arpagos Kyllaros Avraxas Vronti Evos Pyrros Steropi Therveos "Ippoi tou Diomidi" Orychoi Karkinos "Leon tis Reas" Askalaphos "Tevmessia Alopix" Drakon "Kolchios Drakon" Kychreidis Delfini "Gigantomachis Drakon" "Ismenios Drakon" Ladon "Ofiogenis Drakon" Python "Thespios Drakon" Kampi Kito Echidna Peina Syvaris "Kaveirikoi Ippoi" Keledones Chalkotavros "Krysai Kourrai" Talos
+		}
+		
+		cruiser = {
+			Achlys Adifagia Adikia Aergia Agon Aidos Aisa Alala Alastor Alitheia Algea Achos Ania Lypi Alki Amichania Amfilogia Anaideia Androktasia Aggelia Apati Afeleia Aporia Ara Areti Ati Via Kairos Koros Deimos Dikaiosyni Diki Dolos Dysnomia Dysseveia Eirini Ekecheiria Eleos Elpis Epifron Eris Eros Anteros Idylogos Imeros Pothos Efkleia Evlaveia Evnomia Evfimi Efpraxia Efseveia Efthenia Gelos Giras Armonia Ivi Idoni Eimarmeni Omados Omonoia Orkos Ormi Yvris Ypnos Ysminees Ioki Kakia Kalokagathia Kires Koalemos Kratos Kydoimos Lithi Limos Litai Lyssa Machai Mania Moira Klotho Lachesis Atropos Momos Moros Neiki Nemesis Niki Nomos Oizys Oneiros Epialis Morfeas Fantasos Fovitor Ikelos Palioxis Peitharchia Peitho Penia Penthos Pepromeni Fimi Filofrosyni Filotis Fovos Fonos Friki Fthonos Pistis Poini Polemos Ponos Poros Praxidiki Proioxis Profasis Ptocheia Sotir Sotiria Sofrosyni Techni Thanatos Thrasos Tychi Zilos Aggelos Ekati Lampada Gorgyra Orfni Makaria Melinoi Menoitis Mormo Persefoni Acheron Kokytos Flegethon Styx Aigaion Acheloos Ventheskymi Vrizo Kymopoleia Eidothea Ydros Vythos Afros Lefkothea Thetis Aretousa Galini Psamathi Nireida Nireas Neritis Proteus Amfitriti Thavmas Thousa Triton Triteia Aitheras Alektrona Aparktias Afiliotis Argestis Kaikias Kirkios Evronotos Lips Skeiron Stilvon Eosforos Esperos Pyroeis Faethon Fainon Avra Chioni Ios Imera Nyx Iris Nefeli Pandia Ersi Pleiada Alkyoni Steropi Kelaino Ilektra Maia Meropi Taygeti Aitni Alkon Onnis Tonnis Chloris Charavgi Komos Korymvos Kyveli Daktylos Akmon Damnaneus Dilas Epimedis Iasios Kelmis Skythis Titias Kyllinos Evnomia Diki Eirini Thallo Afxo Karpo Ferousa Evforia Orthosia Avgi Anatoli Mousiki Gymnastiki Nimfi Mesimvria Spondi Akti Esperis Dysis Arktos Ear Theros Fthinoporo Cheimon Methi Melia Kalliopi Kleio Efterpi Erato Melpomeni Polymnia Terpsichori Thaleia Ourania Aoidi Archi Meleti Mnimi Thelxinoi Kefisso Apollonia Vorysthenis Ypati Mesi Niti Polymatheia Palaistra Rapso
+		}
+		
+		battleship = {
+			Afroditi Apollon Aris Artemis Athina Dimitra Dionysos Vakchos Adis Pluton Iphestos Ira Ermis Estia Poseidon Zeus Dias Etheras Anagki Chaos Chronos Erevos Eros Ypnos Nisoi Ouranos Gaia Ourea Fanis Pontos Tartaros Thalassa Thanatos Imera Nyx Nemesis Koios Kreios Kronos Yperion Iapetos Mnimosyni Okeanos Foivi Rea Tithys Theia Themis Asteria Astraios Atlas Avra Klymeni Dioni Helios Selini Eos Epitheus Evryvia Evrynomi Lilantos Lito Menoitios Mitis Ofion Pallas Persis Promitheus Styx
+		}
+		
+		science = {
+			Archimedes Anaxagoras "Aetios Antiochos" "Thales Milesios" Demokritos Ippokratis Efkleidis "Aristarchos Samios" "Kallimachos Kyrineos" Eratosthenis "Ipparchos Nikaios" Stravon "Ptolemaios Alexandrinos" "Galinios Pergamon" Isokratis Pythagoras Anaximandros Aglaoniki "Andronikos Kyrros" Apollonarios "Apollonios Pergios" Aratos Aristyllos "Attalos Rodios" "Aftolykos Pitanis" "Vion Avdera" Kallipos "Karpos Antiochos" Kleomedes Kleostratos "Konon Samios" "Diodoros Alexandrinos" Ekfantos Efchtemon "Evdoxos Knidios" Geminos Arpallos Iphestion "Iraklidis Pontikos" Iketas Ipsyclis "Menelaos Alexandrinos" "Meton Athinaios" Oinopodis "Filippos Opios" Poseidonios Pytheas Sosigenis "Tefkros Vavylonios" "Theon Alexandrinos" Timocharis Kratos Aristovoulos "Diades Pellios" Gorgos "Epimachos Athinaios" Efpalinos "Iroas Alexandrinos" Mandroklis "Filon Vyzantinos" "Polyidios Thessalion" Xenagoras Xenokratis "Ypatia Alexandrini" Nikomachos Nikomedes Diokleios Dikarcheos Dinostratos "Perseas Geometris"
+		}
+		
+		colonizer = {
+			Avres Ava Avarvarea Aganippi Agno Agchinoi Adrasteia Akakallida Akmini Alagonia Alkyonides Amaltheia Argiopi "Avra tou Lelantou" Volina Vritomartis Dafni Dryades Elionomi Endieda Epimelida Erithia Esperides Evriti Evridiki Icho Theisoa Thoosa Thries Thyia Iaira Iachi Idaia Imalia Ionides Kaveirides Kaveiro Kallisto Kalypso Kastalia Kerossea Klymeni Korkyra Krataiida Kritheida Kyllini Kymopoleia Kyrini Mideia Meliti Metopi Naiades Oinoni Oreades Orseida Polyxo Pyrini Rini Sagaritida Salamina Salmakida Syrigx Tilediki Yades Chariklo Cheloni Okyrroi Oreithyia
+		}
+		
+		constructor = {
+			Agnaptos "Aristovoulos Kassandreios" Kallikratis Kallimachos Chersifron Dedalos Dinokratis Efpalinos "Ermodoros Salamios" "Ermogenis Prienios" "Ippodamos Milesios" Iktinos Karpion Livon Metagenis Mnesiklis "Ailios Nikon" Parmenion Faiax Feidias Filon "Pythios Prienios" "Theodoros Samios" Satyros "Sostratis Knidios" Xenarios Aleas Aminoklis "Glafkos Chion" "Iason Feraios" Terpandros "Epigonos Amvrakios" Ypervios
+		}
+		
+		
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			random_names = {
+				
+			}
+			sequential_name = MYNL_GREEK_O_ASTROLIMENIKI_VASI
+		}
+	
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			
+		}
+
+		sequential_name = MYNL_GREEK_O_ASTRIKOS_STOLOS
+	}
+
+
+	###ARMIES
+	army_names = {
+	
+		defense_army = {
+			sequential_name = MYNL_GREEK_O_PELTASTES
+		}
+			
+		assault_army = {
+			sequential_name = MYNL_GREEK_O_ASTRIKOI_OPLITES
+		}
+		
+		slave_army = {
+			sequential_name = MYNL_GREEK_O_EILOTES
+		}
+		
+		clone_army = {
+			sequential_name = MYNL_GREEK_O_MACHIMOI_KLONOI
+		}
+		
+		robotic_army = {
+			sequential_name = MYNL_GREEK_O_ASTRIKOI_TELCHINES
+		}
+		
+		android_army = {
+			sequential_name = MYNL_GREEK_O_IMIANTHROPINOI_OPLITES
+		}
+		
+		psionic_army = {
+			sequential_name = MYNL_GREEK_O_PSYCHONIKOI_MACHITES
+		}
+		
+		xenomorph_army = {
+			sequential_name = MYNL_GREEK_O_XENOMORFOI_MACHITES
+		}
+		
+		gene_warrior_army = {
+			sequential_name = MYNL_GREEK_O_KOSMONAFTES
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Aktio Agrinio Alikyrna Amfilochia Anaktorio Antirrio Arsinoi Astakos Attaleia Irakleia Thermo Idomeni Kalydona Limnaia Medeon Nafpaktos Oiniades Palairos Ptolemais Stratos Aitolia Aitoloakarnania Argos Tiryntha Alieis Asini Epidavros Kleonai Argolida Lissa Masis Mykines Timenio Troizina Alea Amilos Vasilis Arkadia Vrenthi Gortyna Ellison Enispi Zoitia Iraia Thelpousa Theisoa Lykoa Kynouria Thyraion Thoknia Kaous Karyai Kafya Lykosoura Melpeia Maira Mantineia Melaggeia Nonakris Oryx Orchomenos Paos Paroria Pelagos Petrosaka Prasies Ripi Seirai Skias Strati Stymfilos Tefthis Tegea Tropaia Trapezounta Trikolonoi Ypsounta Falanthos Feneos Foizon Charisia Psofis Attiki Athinai "Athinon Asty" Elefsina Kifisia Megara Peiraias Dekeleia Ermos Ekali Kypseli Kythiros Kolonos Korydallos Lavrio Paiania Pallini Ymittos Flya Teithra Oropos Aigosthena Krommyona Nisaia Pages Achaia Dymi Pellini Aigio Antheia Aiges Aroi Arva Argeathoi Argyra Aristonaftes Volini Vountouchla Voura Gonoessa Eliki Evryteiai Thaliades Keryneia Kleitor Kynaithi Ammochostos Lidra Chirokoitia Amathous Kition Larissa Leontio Lousoi Mesati Nassoi Panormos Patra Skotani Faistos Farai Chalandritsa Lidra Tamasos Idalion Thiva Askri Akraifia Aliartos Alalkomenes Anthidon Asplidona Avlida Gla Glisantas Dilio Pilio Delfoi Eftrisi Eilesion Eleon Eleftheres Eteonos Thespies Kyrtones Kopes Koroneia Voiotia Livadeia Medeon Mykalissos Nisa Ogchistos Olmones Peteon Plataies Sides Skolos Schoinos Tifa Tanagra Tegyra Tevmissos Yli Okalea Efvoia Aidipsos Amarysia Eretria Elymnion Karystos Koila Limni Chalkis Styraies Efyra Antipatreia Illyria Amvrakia Vereniki Omfalion Avlonas Vaties Vouchetion Damastion Dodoni Elatreia Epidamnos Echinos Kassopi Orraon Pandosia Passaron Thesprotia Cheimarra Dyrrachion Ileia Alifyra Amfigeneia Arpina Vouprasia Dyspontioi Epitalion Ilida Thryon Kakovatos Kyllini Lepreo Lasion Letrinoi Olympia Pisa Pylos Samiko Skillountia Yrmini Feia Figaleia Frixa Thesprotia Nikopolis Fanoti Thesallia Alos Iton Aiginion Dimitriada Magnisia Evrymenes Ithomi Iolkos Kallinikos Lakereia Nesson Oichalia Orthi Pteleos Faloreia Fthiotides Thraki Agchialos Vyzantion Avdyra Ainos Alexandreia Alexandroupolis Apameia Maroneia Vergina Vergepolis Vizyi Makedonia Zaldapa Athos Ismaros Kardia Komotini Lysimacheia Madytos Mesimvria Panion Propontida Sefthopolis Sistos Strymi Topeiros Tylis Aipeia Arsinoi Golgoi Drepanon Egkomi Thronoi Karpasia Lapithos Mario Ourania Pafos Soloi Salamina Chitroi Trita Kypros Kastoria Orestikon Korinthos Nemea Sikyona Lechaion Tenea Titania Fliassia Fleiousa Knossos Kriti Kydonia Rizinia Irakleion Lakonia Lakaidemonia Sparti Messina Alagonia Asopos Dafnion Gytheion Gerakas Epidavros Kalamai Pyrrichos Megara Limnos Lokrida Amfissa Thronion Efpalion Kastoria Pieria Chalkidiki Aggista Kozani Amfipoli Antiocheia Antigoneia Atalanti Verga Veroia Damastion Dimitria Drama Evropos Kallipoli Orestida Pella Perikefalaia Servia Filippoi Syrrakousses Allifa Ankona Atella Elea Thourioi Imera Ipponion Kymi Kalimera Kamarina Katania Kavlonia Kozentsa Laos Yvlaia Medma Mystia Neapoli Naxos Paistos Palermo Pandosia Meliteni Peripolion Poseidonia Rigion Syvaris Messinia Iklaina Avia Denthaliatida Erana Methoni Pylos Farai Amaseia Aiolida Vithynia Galatia Ionia Kappadokia Karia Kilikia Lydia Lykia Mysia Efessos Smyrni Pergamo Kyrinea Pamfylia Pamflagonia Pisidia Troades Frygia Kaissareia Michanionia Nikaia Komana Selefkeia Ptolemaida Isavra Stratonikeia Kos Fthiotida Atalanti Domokos Larymna Lamia Livanates Malesina Martinio Pyrassos Stylida Fokis Amvrossos Amfikleia Voulis Ithaki Thermopyles Aigina Lesvos Paros Ikaria Erochos Kyparissos Ledon Medeon Neones Panopeas Tithorea Flygonio Charadra Taygetos Asterousia Apameia Voukefalia Gaggra Gela Daidalis Ekatompylos Vereniki Anthemousia Akropoli Istaia Theofila Komopolis Kritinia Kastamoni Livithra Nafkratis Nikomidion Odysseia Pinara Polis Parion Salona Laodikeia Leontinoi Metapontio Parthia Trikala Tarantas Massalia
+				
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			
+			# Always combined with a second name
+			first_names_male = {
+				Akrisios Adrastos Aiakos Aigistheas Aeimneistos Aiolos Aisopos Aison Aitolos Agamidis Aetios Agamemnon Agos Aias Alastor Alkinoos Alkmaion Alektryon Avleas Alkiviadis Alkimachos Amfitryon Alexandros Alexarchos Alexios Alfios Alopios Amiantos Amyntor Anaxagoras Anaxarchos Androklis Androgios Anikitos Antaios Anthemion Antigonos Antilochos Antinoos Antiochos Antisthenis Apollonios Arkas Archidis Archidamos Arkturos Argos Aristos Aristagoras Aristarchos Aristoklis Aristodimos Aristomachos Ariston Aristofanis Aristotelis Aristoxenis Arsenios Artemios Asklipios Astakos Astir Asterion Athenion Atreas Atromitos Attalos Aftodikos Aftolykos Agisilaos Vakchaios Vakinor Vakos Varios Vardas Vasileios Vasileidis Voethios Vrison Kallimachos Kallikratis Kallisthenis Karpos Kastor Kaias Kefalos Kifeas Chalkon Chalkodon Charilaos Charon Cheiron Chromios Kilix Kineas Kinyras Kleandros Kleanthis Kleisthenis Kleomenis Kleon Kreon Klytios Klytomidis Knydios Konon Koronos Korydallos Kriton Kryos Kroisos Kronos Koufagoras Daidalos Archimedis Damastor Damianos Damon Danaos Dafnis Deinokratis Dimos Dimitrios Dimodokos Dimokratis Dimokritos Daimon Demonax Dimofilos Dimosthenis Diagoras Dioklis Diomidis Dionysios Dioskouros Dithyramvos Dolon Doreion Doros Dorotheos Dromeus Dryas Achaios Echemios Eirinaios Elpidios Empedoklis Eleon Elpinor Eratosthenis Epafroditos Epigeios Efialtis Epikouros Epifanios Erasistratos Erechthios Epitropos Erginios Eteoklis Efvoulos Efkarpos Efkleidis Efippos Evnomos Evforos Evgenios Evripidis Evryviadis Evrykratis Eftychios Ganymidis Gennadios Gerasimos Georgios Glafkos Gorgos Gorios Gregorios Gryllos Agios Armodios Egesistratos Igetoras Ektor Iliodoros Iroas Irakleidis Irakleitos Iraklios Ermeias Ermogenis Ermolaos Ermolykos Irodion Ieronymos Ipparchos Ippolytos Ippokratis Ippotis Yakinthos Yperion Iakchos Iolaos Iason Ikarion Ikaros Iamvos Idaios Illyrio Ilos Iniochos Ion Iros Isagoras Aristarchos Isidor Isandros Isokratis Kadmos Kainias Kalchas Kallias Kallinikos Kallinos Kallon Kallisthenis Kekrops Kasos Kassandros Kavnos Kyvos Kimon Kleitos Korax Kleopas Kleomenis Kosmas Krateros Kriteas Kritodimos Erotokritos Kroisos Kyros Laertis Kyknos Lagos Laios Laodikos Achilleus Laodamas Lavreion Laomedon Limnos Leandros Learchos Leon Leonidas Leontios Lithos Lefkippos Lefkos Loxos Lykos Lykomidis Lykofron Lykourgos Lysagoras Lysandros Lysias Lysimachos Lysippos Makarios Machon Maiandros Markion Marios Midios Mastor Megaklis Megakreon Megareos Megasthenis Megathenis Megas Megistos Melas Meleagros Melanthos Menikratis Menelaos Menoikos Mentor Merops Midas Metrofanis Mnistir Monomachos Musaios Mys Myrtos Mygdon Narkissos Nearchos Nafplios Neoklis Nestor Nikandros Nikolaos Nikias Nikodromos Nikomidis Nireas Odysseus Oidipous Oineus Aineias Onisillos Olympios Olympion Olympiodoros Onisiforos Orkos Onomastos Orestis Orion Orfeas Paesios Palaimon Panarios Panionos Pangkratios Paris Parmenidis Parmenion Ifestion Parthenon Patron Pyrros Peisandros Pelagon Pentheas Perdix Perifanos Faistos Faiops Fanis Farmakios Feidias Feidippidis Ferraios Fileas Filimon Filistos Filippos Aischyllos Filokypros Kypros Filostratis Filotas Filoxenos Foinix Fokas Fokion Frynos Frixos Fotios Fylakas Peisistratos Pleistarchos Plutarchos Irodotos Platon Podargos Polemios Polydefkis Polydektis Polyxenis Polyfimos Polyxinos Polyfontis Porfyrios Poseidon Posidonios Potamon Priamos Praxitelis Priskos Proktos Proteas Prokopios Protogenis Proxenos Prytanis Ptolemaios Pythagoras Pytheas Dimosthenis Sarpidon Satyros Skamandrios Schedios Skyllias Skythas Sevastos Seisamis Selepos Selefkos Sikelion Silenos Simon Skiron Sofoklis Sosthenis Spevdon Stachys Stolos Stratios Stratigon Talos Tekton Teiresias Tilemachos Telamon Tefkros Tireas Thalis Thavmastos Thoukididis Theogenis Theofylaktos Theofrastos Theofanis Therapon Thessalos Theron Thorax Thrasidaios Thrasilaos Thrasyvoulos Thesprotios Chrysis Timoxenis Tisandros Lysandros Triton Xanthippos Xanthos Xenagoras Xenokratis Xenofanis Xenofon Zagreos Zenon Zinodoros Zefyros Zethios Zefxis Zosimos Faidon Miltiadis Perseus Proteus Konstantinos Nikiforos Periklis Diogenis Patroklos Aiakos Theseus Chalkanor Evagoras Ilarion Onisillos Antonios
+			}
+
+			# Always combined with a second name
+			first_names_female = {
+				Achaia Andreia Aigli Airopi Agamidia Aganippi Agapi Agathi Agathoniki Aglaia Aikaterini Aithria Alkystis Alkippi Alkmini Alkyoni Althea Amatheia Anastasia Andromeda Amfitryti Antheia Anthousa Antikleia Antigoni Apollonia Areti Aretousa Ariadni Aspasia Astera Aristoniki Arsinoi Artemidora Artemisa Avgi Alexia Varvara Vafkis Vereniki Vito Vriseis Kaliopi Kallifana Kalypso Kanykleia Charis Chioni Chloi Chloris Chrysi Chrysothemis Kilissa Kirki Klio Klymeni Korynthia Krisa Kyveli Kymothea Kyrini Kytheira Damia Damiani Danai Deianeira Dorothea Dynameni Egeria Aigina Eidothea Eileithya Ilektra Elpis Eplir Erigoni Eriopis Erifyli Eris Efkarpia Evrykleia Evrydiki Evantheia Galateia Glafka Glyki Gorgo Alia Aideia Armodia Armonia Ekavi Ekalini Ermioni Iro Irofili Ippodameia Ippolyti Ermina Iarea Ianeira Ianthi Iola Ino Iolanthi Inomeni Ifigenia Eirini Iris Isadora Ismini Issa Iokasti Elli Elliodora Eleni Iasi Iamatia Aliki Ellaniki Ierofyli Irofyli Kallisto Kallixeni Kassandra Kleopatra Klytaimnistra Kori Kyra Kypris Lais Laodameia Laoniki Laodikia Lefkothea Lyda Lyto Lyra Maia Mera Maiandria Midia Megaira Megara Melania Melantho Melissa Melitia Menelaia Meropi Milo Milto Myrto Nafsika Nairia Dimitra Nefeli Nikopolis Nikaia Niovi Nysa Olympia Orthia Pandora Parthenia Parthenopi Pasifai Pinelopi Persefoni Persida Faidra Faia Fereniki Filinna Filomachi Foivi Fryni Fylia Fyllis Fylomedusa Polykasti Polydamia Proto Protogonia Estia Rea Ira Psychi Rodopi Skylla Sevasteia Rodia Pyrra Pella Pylia Stratoniki Niki Sotira Sofia Thalassa Thaleia Theano Thiva Thelma Themis Theodosia Theofania Theodora Thesalloniki Thetis Theia Xanthippi Xanthi Xenia Xenofyli Zenovia Zita Zoi Lysistrati
+			}			
+			
+			# Always combined with a first name
+			second_names = {
+				Aetion Gerakion Ippion Megalion Makedon Athinon Lakedemon Attikou Petridi Grammatikou Gigarcheou Lykarcheou Leventi Karaiskaki Stratiotikou Machimou Monomachou Gavra Diogenous Mesopotamitou Syrias Melissenion Akrita Douka Tornikiou Argyrou Chrysou Thalassinou Naftikou Axiou Diakou Kanari Kavallariou Katafrachtou Varangkou Kalothetou Kalovasileos Leon Kaprou Kamaterou Keroulariou Kourtikiou Kontostefanou Foka Nikita Petromichaleos Petrolifa Metochiti Kontarioforou Dorieus Mykineou Atreidi Perseidi Ellin Sklirou Geronta Servilou Vlachou Pontiou Trapezion Telamona Salamaiou Thiraiou Dima Pyrrou Sgourou Xanthou Damianou Protopsalti Istorikou Opliti Pentospatha Spathari Klefti Armyrou Astronomou Astronafti Ptolemaiou Poliorkiti Charon Irakleos Dioskourou Olympiou Theodosiou Vyzantinou Korinthiou Laskaridi Irakleidiou Nikiforou Minoa Tyrranou Drakon Solon Myrmidon Mathimatikou Melissinou Makremvoliti Ioustinianou Isavrou Komninou Ieron Makrygianni Prokopiou Oinokrati Kallikrati Plataion Thermopylon Marathona Salaminas Skythion Amazon Akefalou Atlantos Chalveos Koureon Daktylou Ypervoreiou Lapithon Lotofagon Monopodon Panotion Titanon Atlantidon Palaiologou Mavrogenous Miaouli Dikaiou Fanarioti Smyrneou Kappadokiou Kaissara Riga Knydiou Klyton Antinoou Odysseos Ithakiou Kerkyraiou Faiakon Troados Pellas Thivon Apollonias Deilou Piliou Korinthias Militou Ionias Ellispontou Mavrou Asprou Kyanou Erythrou Thallasiou Astrikou Iliofotistou Anthestirion Endoxou Pagkratiou Olympionikion Faneron Sofou Aiginos Kythiras Milou Fthoiotidas Orestias Lamias Perseidon
+			}
+			
+			# (Imperial) Always combined with a regnal second name
+			regnal_first_names_male = {
+				Akrisios Adrastos Aiakos Aigistheas Aeimneistos Aiolos Aisopos Aison Aitolos Agamidis Aetios Agamemnon Agos Aias Alastor Alkinoos Alkmaion Alektryon Avleas Alkiviadis Alkimachos Amfitryon Alexandros Alexarchos Alexios Alfios Alopios Amiantos Amyntor Anaxagoras Anaxarchos Androklis Androgios Anikitos Antaios Anthemion Antigonos Antilochos Antinoos Antiochos Antisthenis Apollonios Arkas Archidis Archidamos Arkturos Argos Aristos Aristagoras Aristarchos Aristoklis Aristodimos Aristomachos Ariston Aristofanis Aristotelis Aristoxenis Arsenios Artemios Asklipios Astakos Astir Asterion Athenion Atreas Atromitos Attalos Aftodikos Aftolykos Agisilaos Vakchaios Vakinor Vakos Varios Vardas Vasileios Vasileidis Voethios Vrison Kallimachos Kallikratis Kallisthenis Karpos Kastor Kaias Kefalos Kifeas Chalkon Chalkodon Charilaos Charon Cheiron Chromios Kilix Kineas Kinyras Kleandros Kleanthis Kleisthenis Kleomenis Kleon Kreon Klytios Klytomidis Knydios Konon Koronos Korydallos Kriton Kryos Kroisos Kronos Koufagoras Daidalos Archimedis Damastor Damianos Damon Danaos Dafnis Deinokratis Dimos Dimitrios Dimodokos Dimokratis Dimokritos Daimon Demonax Dimofilos Dimosthenis Diagoras Dioklis Diomidis Dionysios Dioskouros Dithyramvos Dolon Doreion Doros Dorotheos Dromeus Dryas Achaios Echemios Eirinaios Elpidios Empedoklis Eleon Elpinor Eratosthenis Epafroditos Epigeios Efialtis Epikouros Epifanios Erasistratos Erechthios Epitropos Erginios Eteoklis Efvoulos Efkarpos Efkleidis Efippos Evnomos Evforos Evgenios Evripidis Evryviadis Evrykratis Eftychios Ganymidis Gennadios Gerasimos Georgios Glafkos Gorgos Gorios Gregorios Gryllos Agios Armodios Egesistratos Igetoras Ektor Iliodoros Iroas Irakleidis Irakleitos Iraklios Ermeias Ermogenis Ermolaos Ermolykos Irodion Ieronymos Ipparchos Ippolytos Ippokratis Ippotis Yakinthos Yperion Iakchos Iolaos Iason Ikarion Ikaros Iamvos Idaios Illyrio Ilos Iniochos Ion Iros Isagoras Aristarchos Isidor Isandros Isokratis Kadmos Kainias Kalchas Kallias Kallinikos Kallinos Kallon Kallisthenis Kekrops Kasos Kassandros Kavnos Kyvos Kimon Kleitos Korax Kleopas Kleomenis Kosmas Krateros Kriteas Kritodimos Erotokritos Kroisos Kyros Laertis Kyknos Lagos Laios Laodikos Achilleus Laodamas Lavreion Laomedon Limnos Leandros Learchos Leon Leonidas Leontios Lithos Lefkippos Lefkos Loxos Lykos Lykomidis Lykofron Lykourgos Lysagoras Lysandros Lysias Lysimachos Lysippos Makarios Machon Maiandros Markion Marios Midios Mastor Megaklis Megakreon Megareos Megasthenis Megathenis Megas Megistos Melas Meleagros Melanthos Menikratis Menelaos Menoikos Mentor Merops Midas Metrofanis Mnistir Monomachos Musaios Mys Myrtos Mygdon Narkissos Nearchos Nafplios Neoklis Nestor Nikandros Nikolaos Nikias Nikodromos Nikomidis Nireas Odysseus Oidipous Oineus Aineias Onisillos Olympios Olympion Olympiodoros Onisiforos Orkos Onomastos Orestis Orion Orfeas Paesios Palaimon Panarios Panionos Pangkratios Paris Parmenidis Parmenion Ifestion Parthenon Patron Pyrros Peisandros Pelagon Pentheas Perdix Perifanos Faistos Faiops Fanis Farmakios Feidias Feidippidis Ferraios Fileas Filimon Filistos Filippos Aischyllos Filokypros Kypros Filostratis Filotas Filoxenos Foinix Fokas Fokion Frynos Frixos Fotios Fylakas Peisistratos Pleistarchos Plutarchos Irodotos Platon Podargos Polemios Polydefkis Polydektis Polyxenis Polyfimos Polyxinos Polyfontis Porfyrios Poseidon Posidonios Potamon Priamos Praxitelis Priskos Proktos Proteas Prokopios Protogenis Proxenos Prytanis Ptolemaios Pythagoras Pytheas Dimosthenis Sarpidon Satyros Skamandrios Schedios Skyllias Skythas Sevastos Seisamis Selepos Selefkos Sikelion Silenos Simon Skiron Sofoklis Sosthenis Spevdon Stachys Stolos Stratios Stratigon Talos Tekton Teiresias Tilemachos Telamon Tefkros Tireas Thalis Thavmastos Thoukididis Theogenis Theofylaktos Theofrastos Theofanis Therapon Thessalos Theron Thorax Thrasidaios Thrasilaos Thrasyvoulos Thesprotios Chrysis Timoxenis Tisandros Lysandros Triton Xanthippos Xanthos Xenagoras Xenokratis Xenofanis Xenofon Zagreos Zenon Zinodoros Zefyros Zethios Zefxis Zosimos Faidon Miltiadis Perseus Proteus Konstantinos Nikiforos Periklis Diogenis Patroklos Aiakos Theseus Chalkanor Evagoras Ilarion Onisillos Antonios
+			}
+			
+			# (Imperial) Always combined with a regnal second name
+			regnal_first_names_female = {
+				Achaia Andreia Aigli Airopi Agamidia Aganippi Agapi Agathi Agathoniki Aglaia Aikaterini Aithria Alkystis Alkippi Alkmini Alkyoni Althea Amatheia Anastasia Andromeda Amfitryti Antheia Anthousa Antikleia Antigoni Apollonia Areti Aretousa Ariadni Aspasia Astera Aristoniki Arsinoi Artemidora Artemisa Avgi Alexia Varvara Vafkis Vereniki Vito Vriseis Kaliopi Kallifana Kalypso Kanykleia Charis Chioni Chloi Chloris Chrysi Chrysothemis Kilissa Kirki Klio Klymeni Korynthia Krisa Kyveli Kymothea Kyrini Kytheira Damia Damiani Danai Deianeira Dorothea Dynameni Egeria Aigina Eidothea Eileithya Ilektra Elpis Eplir Erigoni Eriopis Erifyli Eris Efkarpia Evrykleia Evrydiki Evantheia Galateia Glafka Glyki Gorgo Alia Aideia Armodia Armonia Ekavi Ekalini Ermioni Iro Irofili Ippodameia Ippolyti Ermina Iarea Ianeira Ianthi Iola Ino Iolanthi Inomeni Ifigenia Eirini Iris Isadora Ismini Issa Iokasti Elli Elliodora Eleni Iasi Iamatia Aliki Ellaniki Ierofyli Irofyli Kallisto Kallixeni Kassandra Kleopatra Klytaimnistra Kori Kyra Kypris Lais Laodameia Laoniki Laodikia Lefkothea Lyda Lyto Lyra Maia Mera Maiandria Midia Megaira Megara Melania Melantho Melissa Melitia Menelaia Meropi Milo Milto Myrto Nafsika Nairia Dimitra Nefeli Nikopolis Nikaia Niovi Nysa Olympia Orthia Pandora Parthenia Parthenopi Pasifai Pinelopi Persefoni Persida Faidra Faia Fereniki Filinna Filomachi Foivi Fryni Fylia Fyllis Fylomedusa Polykasti Polydamia Proto Protogonia Estia Rea Ira Psychi Rodopi Skylla Sevasteia Rodia Pyrra Pella Pylia Stratoniki Niki Sotira Sofia Thalassa Thaleia Theano Thiva Thelma Themis Theodosia Theofania Theodora Thesalloniki Thetis Theia Xanthippi Xanthi Xenia Xenofyli Zenovia Zita Zoi Lysistrati
+			}
+			
+			# (Imperial) Always combined with a regnal first name
+			regnal_second_names = {
+				Aetion Gerakion Ippion Megalion Makedon Athinon Lakedemon Attikou Petridi Grammatikou Gigarcheou Lykarcheou Leventi Karaiskaki Stratiotikou Machimou Monomachou Gavra Diogenous Mesopotamitou Syrias Melissenion Akrita Douka Tornikiou Argyrou Chrysou Thalassinou Naftikou Axiou Diakou Kanari Kavallariou Katafrachtou Varangkou Kalothetou Kalovasileos Leon Kaprou Kamaterou Keroulariou Kourtikiou Kontostefanou Foka Nikita Petromichaleos Petrolifa Metochiti Kontarioforou Dorieus Mykineou Atreidi Perseidi Ellin Sklirou Geronta Servilou Vlachou Pontiou Trapezion Telamona Salamaiou Thiraiou Dima Pyrrou Sgourou Xanthou Damianou Protopsalti Istorikou Opliti Pentospatha Spathari Klefti Armyrou Astronomou Astronafti Ptolemaiou Poliorkiti Charon Irakleos Dioskourou Olympiou Theodosiou Vyzantinou Korinthiou Laskaridi Irakleidiou Nikiforou Minoa Tyrranou Drakon Solon Myrmidon Mathimatikou Melissinou Makremvoliti Ioustinianou Isavrou Komninou Ieron Makrygianni Prokopiou Oinokrati Kallikrati Plataion Thermopylon Marathona Salaminas Skythion Amazon Akefalou Atlantos Chalveos Koureon Daktylou Ypervoreiou Lapithon Lotofagon Monopodon Panotion Titanon Atlantidon Palaiologou Mavrogenous Miaouli Dikaiou Fanarioti Smyrneou Kappadokiou Kaissara Riga Knydiou Klyton Antinoou Odysseos Ithakiou Kerkyraiou Faiakon Troados Pellas Thivon Apollonias Deilou Piliou Korinthias Militou Ionias Ellispontou Mavrou Asprou Kyanou Erythrou Thallasiou Astrikou Iliofotistou Anthestirion Endoxou Pagkratiou Olympionikion Faneron Sofou Aiginos Kythiras Milou Fthoiotidas Orestias Lamias Perseidon
+			}
+			
+		}
+	}
+}

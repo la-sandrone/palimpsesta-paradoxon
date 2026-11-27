@@ -1,0 +1,14 @@
+﻿l_english:
+
+ MYNL_ROM1_O_AUXILIA_AUTOMATUM:0 "$R$ Auxilia Automatum"
+ MYNL_ROM1_O_AUXILIA_EFFIGIA:0 "$R$ Auxilia Effigia"
+ MYNL_ROM1_O_AUXILIA_MECHANICUM:0 "$R$ Auxilia Mechanicum"
+ MYNL_ROM1_O_AUXILIA_SERVUS:0 "$R$ Auxilia Servus"
+ MYNL_ROM1_O_AUXILLIA_BELLUA:0 "$R$ Auxillia Bellua"
+ MYNL_ROM1_O_LASSIS_ASTRUM:0 "$R$ Classis Astrum"
+ MYNL_ROM1_O_LEGIO_EXTRAORDINARII:0 "$R$ Legio Extraordinarii"
+ MYNL_ROM1_O_LEGIO_INCURSUS:0 "$R$ Legio Incursus"
+ MYNL_ROM1_O_LEGIO_LIMITANEI:0 "$R$ Legio Limitanei"
+ MYNL_ROM1_O_LEGIO_OMITATENSES:0 "$R$ Legio Comitatenses"
+ MYNL_ROM1_O_SPECULUM:0 "$R$ Speculum"
+ name_list_ROM1:0 "Roman"

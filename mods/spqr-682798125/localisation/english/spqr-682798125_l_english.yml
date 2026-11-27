@@ -1,0 +1,14 @@
+﻿l_english:
+
+ MYNL_SPQR_AUXILIA_ABOMINATIO:0 "Auxilia Abominatio $R$"
+ MYNL_SPQR_AUXILIA_ARMATAE:0 "Auxilia Armatae $R$"
+ MYNL_SPQR_CLASSIS:0 "Classis $R$"
+ MYNL_SPQR_LEGIO:0 "Legio $R$"
+ MYNL_SPQR_LEGIO_ARMATAE:0 "Legio Armatae $R$"
+ MYNL_SPQR_LEGIO_IMITOR:0 "Legio Imitor $R$"
+ MYNL_SPQR_LEGIO_PSYCHICAE:0 "Legio Psychicae $R$"
+ MYNL_SPQR_LEGIO_SERVUS:0 "Legio Servus $R$"
+ MYNL_SPQR_PALATINI:0 "Palatini $R$"
+ MYNL_SPQR_PRAESIDIUM:0 "Praesidium $R$"
+ MYNL_SPQR_SCOLA_GENETICAE:0 "Scola Geneticae $R$"
+ name_list_SPQR:0 "Roman 1"

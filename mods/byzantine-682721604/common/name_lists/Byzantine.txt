@@ -1,0 +1,584 @@
+﻿### Byzantine
+Byzantine = {
+	randomized = no
+	ship_names = {
+		generic = {
+			Christophoros Chronos Galaxias Gorgona Gorgopleustos Iason Ikaria Imvros Indikopleustes  Kentavros Keravnos Keratios Kerkyra Kyriarchos "Konstantinou Polis" 
+			"Leon Skleros" Polydynamos  Propontis Rhodos Rhomaios Romanos
+			Soter Stratelates Taxiarchis Theophilos Theophylaktos  Zakynthos Zoodotis 
+		}
+		corvette = {
+			Thessalia Thessalonike Thalassokrator  Thrylos Triton
+			Xiphias Xiphomachos Bosporos Byzantion Chios Adrianoupolis Aetos Aigaion Aigyptos Amphitrion 
+			Angeliophoros Aniketos Apokalipsis  Athenai Atrotos  Axiomachos Demetra Despotes "Despotes Moreos" "Dikephalos Aetos" "Doxa Theou" Drakon
+			Endoxos Eperos Epos "Euxinos Pontos" Korinthos Krete Kypros Naxos Nike Nikephoros Samos Samothrake Sebastokrator Sikelia Okeanos Orestes "Orge Theou" Orthodoxia "Osios Loukas" Ouranos
+			Panaghia Panther Pantokrator Panteleimon Pantodynamos Paphlagonia Pegasos Pelagos Hellas Hellespontos Hephaistos Herakles Hermes Heroas Hydra Hygeia "Lykos Thalasses"
+			Makedonia Megaleion  "Mikra Asia" Ionia Ionion Kaisar Lemnos Lesbos Lykia  Morpheas Peloponnesos Pontos Thrake
+		}
+		constructor = {
+			Achilleus Hektor Perseus Anthemius Callinicus Isidore Petronas Trdat
+		}
+		colonizer = {
+			Belisarios Hades Poseidon Akritai Apelatai Trapezitai
+		}
+		science = {
+			Odysseus Plato Aristotle Palamas Pandidakterion
+		}
+		destroyer = {
+			"Basileus Rhomaion" "Basileus Alexios" "Basileus Andronikos" "Basileus Basileios" "Basileus Basileon"
+			"Basileus Herakleios" "Basileus Ioannes" "Basileus Ioustinianos" "Basileus Isaakios" 
+			"Basileus Konstantinos" "Basileus Leon" "Basileus Manuel" "Basileus Michael" 
+			"Basileus Romanos" "Basileus Theodoros" "Basilissa Eirene"  "Basilissa Zoe" "Basilissa Theodora" "Basileus Nikephoros"
+		}
+		cruiser = {
+			"Aghia Eirene" "Aghia Helene" "Aghia Magdalene" "Aghia Sophia" 
+			"Aghia Thekla" "Aghion Oros" "Aghios Athanasios" "Aghios Eusebios" "Aghios Ioannes" 
+			"Aghios Markos" "Aghios Maximos" "Aghios Menas" "Aghios Nikolaos" "Aghios Philippos"
+			"Aghios Sergios" "Aghios Stephanos" "Aghios Theodoros"
+		}
+		battleship = {
+			"Archangelos Michael" "Apostolos Andreas" "Apostolos Pavlos" "Apostolos Petros" "Archangelos Gabriel" "Christos Soter"
+		}
+		titan = {
+			Belisarios "Megas Alexandros" "Megas Konstantinos" "Autokrator Rhomaion" "Imperator Caesar" Augustus Basilevousa
+		}
+		colossus = {
+			Apokalypsis Eikon 
+		}
+		military_station_small = {
+			sequential_name = MYNL_BYZANTINE_KLEISOURAI
+		}
+		ion_cannon = {
+			"Pyr Rhomaikon"
+		}
+		transport = {
+			sequential_name = MYNL_BYZANTINE_SKEUOPHORA
+		}
+	}
+	fleet_names = {
+		sequential_name = MYNL_BYZANTINE_THEMA
+	}
+	army_names = {
+		defense_army = {
+			sequential_name = MYNL_BYZANTINE_TOURMA
+		}
+		assault_army = {
+			sequential_name = MYNL_BYZANTINE_TOURMA
+		}
+		slave_army = {
+			sequential_name = MYNL_BYZANTINE_TOURMA
+		}
+		clone_army = {
+			sequential_name = MYNL_BYZANTINE_TOURMA
+		}
+		robotic_army = {
+			sequential_name = MYNL_BYZANTINE_TOURMA
+		}
+		android_army = {
+			sequential_name = MYNL_BYZANTINE_TOURMA
+		}
+		psionic_army = {
+			sequential_name = MYNL_BYZANTINE_TOURMA
+		}
+		xenomorph_army = {
+			sequential_name = MYNL_BYZANTINE_TOURMA
+		}
+		gene_warrior_army = {
+			sequential_name = MYNL_BYZANTINE_TOURMA
+		}
+		occupation_army = {
+			sequential_name = MYNL_BYZANTINE_DROUNGOS
+		}
+		robotic_occupation_army = {
+			sequential_name = MYNL_BYZANTINE_DROUNGOS
+		}
+	}
+	planet_names = {
+		generic = {
+			names = {
+				"Aigaiou Pelàgous" "Anatolikon" "Armeniakon" "Boukellarion" "Kappadokias" 
+				"Kephallenias" "Chaldias" "Charsianoù" "Dyrrhachiou" "Makedonias" "Paphlagonias" 
+				"Peloponnesou" Hellàdos Lykàndou Mesopotamias Opsikion Nikopoleos Optimàton
+				Strymonos Thrakes Thessalonikes Thrakesion Sikelias Chersonos Kyprou Edesses
+				Manzikert Agnus Andropolis Butus Coprithis "Hermopolis Parva" Letopolis Phatanus 
+				Mariotes Menelaite Metelis Naucratis Nicius Onuphis Sais Taua Terenuthis Thois Cynopolis
+				Sirmion Paradounavon 
+			}
+		}
+		pc_desert = {
+			names = {
+				Euphratesia Barbalissus Cyrrhus Doliche Europus Germanicia Samosata Aegypto Petra
+			}
+		}
+		pc_arid = {
+			names = {
+				Aegypti Augustamnica Arcadia Thebais Cleopatris 
+			}
+		}
+		pc_tropical = {
+			names = {
+			}
+		}
+		pc_continental = {
+			names = {
+			}
+		}
+		pc_gaia = {
+			names = {
+				Paradeisos
+			}
+		}
+		pc_ocean = {
+			names = {
+				Aigaiou Rhodos Kypros
+			}
+		}
+		pc_tundra = {
+			names = {
+			}
+		}
+		pc_arctic = {
+			names = {
+				Varangia
+			}
+		}
+	}
+	### CHARACTERS
+	character_names = {
+		names1 = {
+			weight = 60
+			first_names_male = {
+				Adrianos Akakios Alexandros Alexios Anastasios Anatolios Andreas Andronikos Anthemios Anthimos Antiochos Antonios Apollonios Arsenios Artemios Athanasios Bardas
+				Bartholomaios Basileios Basil Belisarios Boethios Bosporios Christophoros Chrysanthos Chrysogonos Damianos Daniel David Demetrios Diogenes Dionysios Dorotheos Eirenaios Eudoxios Eustratios
+				Eugenios Euphemios Eusebios Eustathios Evangelos Gabriel Gennadios Georgios Gerasimos Germanos Gregoras Gregorios Hektorios Helias Herakleios Hierotheos Himerios
+				Hippolytos Hypatios Iakobos Ignatios Innokentios Ioannes Ioannikios Iordanes Ioseph Isaakios Isaias Isidoros Ioulianos Ioustinianos Ioustinos Kaisarios
+				Kallinikos Kallistos Komitas Konstantinos Konstantios Konstas Kosmas Kyriakos Kyrillos Kyros Laurentios Lazaros Leon Leontios Loukas Makarios Manuel Markos
+				Matthaios Maurikios Maximos Megistos Meletios Methodios Michael Narses Neophytos Nikephoros Niketas Nikodemos Nikolaos Niphon Orestes Pamphilios Pankratios Pantoleon Paschalis
+				Pavlos Pelagios Petros Philaretos Philippos Philotheos Phokas Photios Polykarpos Porphyrios Prokopios Pyrros Raphail Romanos Sabas Samuel Serapion Sebastianos Sergios Stephanos
+				Staurakios Symeon Symmachos Theocharistos Theodoros Theodosios Theodotos Theodoulos Theoktistos Theophanes Theophilos Theophylaktos Thomas Tiberios Traianos
+				Timotheos Tryphon Valerios Zacharias Zenobios Zenon
+			}
+			first_names_female = {
+				Adriane Agathe Agne Aikaterine Alexandra Alexeia Anastasia Anna Anthe Anthousa Antipatra Antonia Apollonia Athanasia Barbara Basillike
+				Chrysogone Damiane Demetra Dionysia Dorothea Aigidia Eirene Elaiodora Epiphania Eudokia Eudoxia Eugenia Eulalia Eunike Euphemia Euphrasia Euphrosyne
+				Eupraxia Eusebia Eustathia Evanthia Gabrielia Garyphallia Georgia Gregoria Helene Hypatia Ioanna Ioulia Iouliana Ioustina Kale Konstantia Konstantine Kyra Kyriake
+				Leontia Margarita Maria Markia Martha Melissa Nikarete Nikoletta Nonna Parthena Pavlina Pelagia Petronia Philippa Phyllis Pulcheria Rhodanthe Romane Romylia Sergia_Sergia Sibylla
+				Simonis Sophia Stephania Thekla Theochariste Theodora Theodosia Theognosia Theoktiste Theophano Thomais Valeria Viviana Xene Zenobia Zoe
+			}
+			second_names = {
+				Kantakouzenos Doukas Komnenos Palaiologos Laskaris Angelos Phokas
+				"Kameniatis" "Chameas" "Demetrianos" "Laloudios" "Stamopatas" "Peloponnesites" "Klados" "Avastaktos" 
+				"Lardotyros" "Kyritzios" "Kolovos" "Podopagouros" "Touvakes" "Peteinakes" "Ooryphas" "Myxares" "Toxias" 
+				"Bardouchos" "Boilas" "Skepides" "Mamoulianos" "Katakylas" "Drakokephalos" "Rentakes" "Exarchos" "Skepastos" 
+				"Kyminas" "Krasas" "Konstantinakes" "Mouzelis" "Souanites" "Karteroukas" "Machairas" "Koutzodaktylos" 
+				"Kanakaris" "Vamvaloudes" "Leontares" "Klokas" "Axiotes" "Chrysouchos" "Pyrrogenes" "Kophinas" "Makroleon" 
+				"Kalopragmon" "Karphitzes" "Trichares" "Kokkalos" "Kritharatos" "Kretikos" "Tourkos" "Symvatikes" 
+				"Glykomachaires" "Chrysochoos" "Vonos" "Mystakon" "Pterotos" "Monotes" "Manginos" 
+				"Kalavros" "Sikelos" "Kilikos" "Macrodoukas" "Aineidas" 
+				"Pegonitissos" "Kastriotis" "Kamateros" "Skleros"
+				"Makrembolites" "Botaneiates" "Diogenes" "Stratiotikos" "Monomachos" "Kalaphates" 
+				"Paphlagon" "Argyros" "Kourkouas" "Lekapenos" "Karbonopsis" "Makedon" "Stryphnos" "Euforbenos" 
+				"Gabras" "Aaron" "Lampinos" "Tzimiskes" "Kurtikainos" "Murzuphlos" "Balatios" "Ouranos" "Amorios" "Armenios" 
+				"Rangabes" "Logothetes" "Isauros" "Polites" "Studites" "Skamandrenos" "Synkellos" "Kauleas" "Monocharzanios" 
+				"Kassymatas" "Nesteutes" "Scholastikos" "Chrisostomos" "Nazianzen" "Nikomedianos" "Protokletos" "Garidas" 
+				"Grammatikos" "Zeno" "Gavalas" "Axuchos" "Kamonas" "Asidenos" "Hephaistos" "Karatzas" 
+				"Amiroutzes" "Bessarion" "Callistus" "Chalkokondyles" "Gazis" "Kourtesios" "Kallistos" "Kladas" "de Patras" 
+				"Gemistus" "Allatios" "Chalcocondyles" "Korniaktos" "Damaskenos" "Eparchos" "Flanginis" "Fokás" "Heraclides" 
+				"Kallokratos" "Kottounios" "Leontaritis" "Loukanis" "Margunios" "Musurus" "Nafpliotis" "Hatzidákis" 
+				"Aprenos"  "Chortatzis" "Gabrielopoulos" "Gounaropoulos" "Belissariotis" "Konstantopoulos" "Kavallarios" 
+				"Maniakis" "Notaras" "Sgouromallis" "Epiphanis" "Logaras" "Eudaimon" "Sakellarios" "Maurozoumis" "Stylaios" 
+				"Maleinos" "Basilakios" "Mamonas" "Kekaumenos" "Metaxas" "Kanavos" "Koukouzelis" "Koresis" "Makrinos" 
+				"Lambardas" "Adrianos" "Agallon" "Akropolites" "Aoinos" "Apokaukos" "Aprenos" "Arbantenos" "Argyros" 
+				"Arianites" "Atrapes" "Balsamon" "Batatzes" "Botaneiates" "Boumbalis" "Bourtzes" "Branas" "Bryennios" 
+				"Chandrenos" "Choniates" "Choumnos" "Chrysaphes" "Chrysoloras" "Dalassenos" "Dermokaïtes" "Diasorenos" 
+				"Dokeianos" "Eirenikos" "Exazenos" "Gavras" "Glabas" "Iagaris" "Kabakes" "Kabasilas" "Kalamanos" "Kaloethes" 
+				"Kalothetos" "Kamateros" "Katrares" "Kaukadenos" "Kontostephanos" "Koresses" "Kourkouas" 
+				"Kourtikes" "Limpidares" "Machoneos" "Makrembolites" "Malakes" "Maliasenos" "Mamalis" 
+				"Mandromenos" "Manouelites" "Melachroinos" "Mourtzouphlos" "Mouzakios" "Mouzalon" "Neokaisareites" 
+				"Nestongos" "Pantechnes" "Paraspondylos" "Petraliphas" "Petzikopoulos" "Philanthropenos" "Pleustes" 
+				"Prasomales" "Prinkips" "Psellos" "Radenos" "Rossatas" "Sarantapechos" "Sebastopoulos" "Segouropoulos" 
+				"Sgouros" "Spartenos" "Sphrantzes" "Strabomytes" "Synadenos" "Syraneres" "Syropoulos" "Tagares" 
+				"Tarchaneiotes" "Tornikes" "Trichas" "Tsaphas" "Tzamplakon" "Tzykandeles" "Zaridas" "Akunin" "Abalantes" 
+				"Aboudimos" "Adralestos" "Agallianos" "Agrites" "Akapnes" "Alopos" "Alousianos" "Alyattes" "Amaseianos" 
+				"Amiropoulos" "Anatolikos" "Andreiomenos" "Androsalites" "Anemas" "Angoures" "Anthemiotes" "Antiochites" 
+				"Antiochos" "Antipapas" "Arbintenos" "Areobindenos" "Areobindos" "Argyropoulos" "Aristenos" "Artoukomites" 
+				"Arvantenos" "Attaleiates" "Aulenos" "Aulepates" "Axinites" "Axiomatikos" "Balantes" "Barbaros" "Bardales" 
+				"Barenos" "Barsakes" "Barys" "Belissariotes" "Bempetziotes" "Beriboes" "Beriotes" "Blachernites" "Blangas" 
+				"Boilas" "Bouches" "Boutzares" "Bouzenos" "Brachamios" "Bringas" "Chaldos" "Chalkites" "Chalkoutzes" 
+				"Chamaretos" "Charsianites" "Chasanes" "Chazanes" "Choinides" "Choirosphaktes" "Chomatenos" "Chordolibas" 
+				"Choriates" "Chrouselios" "Chrousos" "Chrysanthos" "Chryselios" "Chrysobalantites" "Chrysoberges" "Chytes" 
+				"Daimones" "Dalessenos" "Dalassenos Doukas" "Dekanos" "Diabatenos" "Dikaios" "Diogenes" "Domestikopouolos" 
+				"Doxapatres" "Drakontopoulos" "Drosinos" "Drosos" "Droulenos" 
+				"Elegmites" "Enochos" "Epanokomites" "Ergodotes" "Erotikos" "Eugenianos" "Eugenios" "Eulogios" "Exotrochos" 
+				"Gabalas" "Galaton" "Gelotes" "Gidos" "Glykys" "Goudeles" "Gourzoubathenos" "Granatos" "Gribas" "Grispos" 
+				"Gymnos" "Hagiochrisophorites" "Hagioprokopites" "Hagiotheodorites" "Hagiozacharites" "Hamartolos" 
+				"Haplorabdes" "Haploucheir" "Hexakionites" "Hexaklinites" "Hexamilites" "Hierakes" "Hikanatos" "Iasites" 
+				"Iberopoulos" "Isakiotes" "Italikos" "Kaballarios" "Kabasilas" "Kaisar" "Kalameteros" "Kalamaras" 
+				"Kalampakes" "Kalognomos" "Kamytzes Komnenodoukas" "Kappadokes" "Kappadox Kalampakes" "Karabitenos" 
+				"Karabitziotes" "Karaïonatan" "Karamallos" "Karandenos" "Karantes" "Kardamopoulos" "Karenos" "Karianites" 
+				"Karkaronymos" "Karmalikes" "Karouzeiates" "Kaspax" "Kastamonites" "Katakalon" "Katakalos" "Kataphloros" 
+				"Katas" "Katharos" "Katotikos" "Katzamoundes" "Kegenes" "Kekaleimenos" "Keklymmenos" "Kemineianos" "Kenchres" 
+				"Kentenares" "Kephalas" "Keroularios" "Kibyrraiotes" "Kinnamos" "Kokkinos" "Komnenodoukas" "Konops" 
+				"Kopsenos" "Kostomyres" "Kotertzes" "Kouloukes" "Kouneres" "Krateros" "Krinites" 
+				"Kritharas" "Kritopolos" "Kyminianos" "Kynochorites" "Kyriotes" "Kyritzes" "Labouzenos" "Laktentitzes" 
+				"Lalakon" "Lampsiotes" "Lapardas" "Leichoudes" "Lependrenos" "Leukedonites" "Libadares" "Libadas" 
+				"Libellisios" "Limas" "Liparites" "Lithokastrites" "Logariastes" "Loules" "Louloukes" "Lykaon" "Machetarios" 
+				"Madrites" "Madytenos" "Makropoderes" "Maleïnos" "Maleses" "Mamalos" "Manganes" "Marachas" "Marapas" 
+				"Marchapsabos" "Marianites" "Marzapoulos" "Matzaris" "Matzas" "Matzoukes" "Maurex" "Maurokatakalos" "Mauros" 
+				"Maurozomes" "Mechos" "Megalommates" "Megenos" "Meginos" "Melias" "Melissenos" "Mermentoulos" "Mesarites" 
+				"Meschos" "Mesopotamites" "Metochites" "Metropoulos" "Mitylenaios" "Monachites" "Monokarites" "Monomachatos" 
+				"Moroiannes" "Mosaraph" "Moschos" "Mosele" "Moungos" "Mourmoures" "Moustakes" "Mozaes" "Myralides" 
+				"Myredeites" "Myrelaetes" "Myron" "Nabatenos" "Narbiotes" "Narsites" "Neophytos" "Neustongios" "Nikerites" 
+				"Nikoulitzes" "Noe" "Oinaiotes" "Olyntenos" "Opos" "Pagomenos" "Pakourianos" "Paktiares" 
+				"Doukas Mourtzouphlos" "Palaiotes" "Palatinos" "Pamphilos" "Panaretos" "Pankalos" 
+				"Panokomites" "Parsakoutenos" "Parthenios" "Paxenos" "Pediasimos" "Peganites" "Pegonites" "Pekoules" 
+				"Pelamedes" "Pentarkles" "Pepagomenos" "Pepanos" "Perenos" "Peribleptenos" "Phalkon" "Phialites" "Philaretos" 
+				"Philinos" "Philokales" "Phrangopolos" "Pistophilos" "Pleures" "Politopolos" "Pothos" "Probatas" 
+				"Promountenos" "Proteuon" "Ptochos" "Rentakenos" "Rizenos" "Rodios" "Rogerios" "Romaios" "Rousopoulos" 
+				"Sagopoulos" "Sarakenopoulos" "Saronites" "Sauloioannes" "Semnos" "Serblias" "Sikoundenos" "Sinopites" 
+				"Skandales" "Skanranos" "Skeblenos" "Skoutariotes" "Skribas" "Smyrnaios" "Solomon" "Sortes" 
+				"Soumenos" "Spanogregores" "Spanopoulos""Stachytzes" "Stemnitziotes"
+				"Strephnes" "Stypeiotes" "Styppes" "Synacheris" "Syros" "Taronites" "Tatikes" "Tetragonites" "Theodorokanos" 
+				"Theodosiopolites" "Thrakesios" "Thylakas" "Tilapos" "Timonites" "Tourmarchopoulos" "Traphines" "Trellos" 
+				"Triakontaphyllos" "Triblattites" "Trichinopodes" "Triphyllios" "Tzanzes" "Tzefres" "Tzetas" "Tzipoureles" 
+				"Tzirithon" "Tzoulas" "Tzoumenes" "Tzouroulles" "Tzympenos" "Vatatzes" "Xanthos" "Xenos" "Xeros" "Xiphias" 
+				"Xiphilinos" "Xylinites" "Zabareiotes" "Zagarommates" "Zerbos" "Zomes" "Zonaras" "Kalomalas" "Kaloudes" 
+				"Kampanarios" "Kamytzes" "Kallierges" "Loukites" "Kometopoulos" "Basiliakos" 
+				"Pateranos" "von Winterthur" "Paleologo" "Gregoras" "Sanudo" "Komytzes" "Lascaris" "Kyrdiniatis" "Agapetos" 
+				"Attikos" "Anastasiotis" "Evergetidiotis" "Chliarinos" "Chysovergis" "Eugeniotis" "Vorradiotis" "Mountanis" 
+				"Theotokitis" "Viticlenou" "Autoreianos" "Akoimitos" "Charitopoulos" "Panemorphiotis" "Hyakinthiotis" 
+				"Galesiotis" "Bekkos" "Kyprios" "Gonitis" "Pammakaristiotis" "Perivleptiotis" "Manganiotis" "Kalekas" 
+				"Herakleidon" "Xylaloes" "Syrikos" "Tatikios" "Aspietes" "Kastenianos" "Leovachos" "Maniatis" "Vaklikas" 
+				"Maurikios" "Skrinarios" "Mesanaktis" "Lachanodrakon" "Kalokyris" "Lykodontis" "Skyllaris" "Ampelas" 
+				"Gerontas" "Apokapis" "Pallikarios" "Orphanotrophos" "Chlorokokis" "Hexavoulis" "Martinakios" "Agelastos" 
+				"Kotzes" "Toxaras" "Aplakes" "Gomostos" "Koupharas" "Tyropoulis" "Kontomytes" "Chenopoulos" "Sellokalas" 
+				"Kentrokoukouros" "Antigonos" "Pastillas" "Katakalitzes" "Manikophagos" "Kolokynthis" "Rachites" "Bua Spatas" 
+				"Apsimaros" "Artemios"
+			}
+			regnal_first_names_male = {
+				Ioannes Alexios Konstantinos Andronikos Manuel Romanos Demetrios Theodoros Michael Andreas
+				Thomas Isaakios Basileios Leon Adrianos Anastasios Herakleios Ioulianos Ioustinianos Ioustinos Konstantios Markos
+				Nikephoros Theophilos Theodosios Tiberios Traianos Alexandros Philippos Athanasios Antonios Bartholomaios Christophoros 
+				Diogenes Dionysios Eirenaios Elpidios Georgios Gregorios Hektorios Iason Kyrillos Matthaios Niketas Nikolaos Nikodemos 
+				Sergios Porphyrios Pavlos Panagiotis Petros Philemon Prokopios Stephanos
+			}
+			regnal_first_names_female = {
+				Helene Eirene Theodora Zoe
+			}
+			regnal_second_names = {
+				Akropolites Angelos Aoinos Apokaukos Argyros
+				Basileous Batatzes Botaneiates Boumbalis
+				Choniates Choumnos
+				Diasorenos Diogenes Doukas
+				Gabras
+				Iagaris
+				Kantakuzenos Kaukadenos Komnenos
+				Laskaris
+				Melissinos Melisurgos Mikrulakes Monomakos Mouzalon
+				Nestongos
+				Palaiologos Paraspondylos Phocas Phouskarnaki Phrangopoulos Psellos
+				Rhadinos Rhangabe Rhodocanakis Romanos
+				Syropoulos
+				Tornikes
+				Zarides Zimisces
+			}
+		}
+		names2 = {
+			weight = 5
+			first_names_male = {
+				Alp Araslan Bagha Baghatur Bälgiçi Barjik Barsbek Bastu Bashtwa Bihor Böri Bugha Bulan Bulçan Busir Buzer Çat Çat'n Çorpan Ilik Iltäbär Itakh Kamaj Karadakh Kayghalagh Khatir Khuterkin
+				Kibar Kisa Kundaçiq Kundaç Mänär Mänäs Mënümarót Ötemis Papaçyz Samsam Sartäç Simsam Täbär Tabghaç Tarkhan Tarmaç Tuzniq Vakrim Yabghu Yavantey Yençepi Yerneslu Yeçtirek Yilig
+				Belet Ezra Hanukkah Hezekiah Isaac Manasseh Nisi Yavdi Zebulun Ziebel
+			}
+			first_names_female = {
+				Çiçäk Çeçeppi Çeçki Çeçtilet Çilen Çiltanesi Özgul Özlem Akgul Asli Ayasun Ayten Bozçin Dilek Esin Gulçiçäk_Gulçiçek Gulay Gunduz Gundes Gunes Ikalay Ilkay Ipek Ipekel Irge 
+				Karacik Kätyarikka Këlnissa Këlyamal Khatun Lärkka Lyukha Mala Maturkka Mutlu Naça Parsbit Patiyer Paykëlti Peksen Puyantay Samur Sarantay Sarä Sarica Sarikel 
+				Sati Savaçka Savkëlti Savtilek Savilay Savintik Shurkka Sibel Sirin Sirma Songul Tähtani Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz Yartilek 
+			}
+			second_names = {
+				Khwaliz Kozar Baranjar Bukhal Vakrimal Samsamakh Karadakhu Yabghumakh "ben Israel" "ben Hanukkah" "ben Nisi"
+				"ben Isaac" "ben Zebulun" Alpid Manassid
+			}
+			regnal_first_names_male = {
+				Georgius Ioannes Alexios Konstantinos Andronikos Manuel Romanos Demetrios Theodoros Michael Andreas
+				Thomas Isaakios Basileios Leon Adrianos Anastasios Herakleios Ioulianos Ioustinianos Ioustinos Konstantios Markos
+				Nikephoros Theophilos Theodosios Tiberios Traianos Alexandros Philippos Athanasios Antonios Bartholomaios Christophoros 
+				Diogenes Dionysios Eirenaios Elpidios Georgios Gregorios Hektorios Iason Kyrillos Matthaios Niketas Nikolaos Nikodemos 
+				Sergios Porphyrios Pavlos Panagiotis Petros Philemon Prokopios Stephanos
+			}
+			regnal_first_names_female = {
+				Irene Helene Eirene Theodora Zoe
+			}
+			regnal_second_names = {
+				Tzul Akropolites Angelos Aoinos Apokaukos Argyros
+				Basileous Batatzes Botaneiates Boumbalis
+				Choniates Choumnos
+				Diasorenos Diogenes Doukas
+				Gabras
+				Iagaris
+				Kantakuzenos Kaukadenos Komnenos
+				Laskaris
+				Melissinos Melisurgos Mikrulakes Monomakos Mouzalon
+				Nestongos
+				Palaiologos Paraspondylos Phocas Phouskarnaki Phrangopoulos Psellos
+				Rhadinos Rhangabe Rhodocanakis Romanos
+				Syropoulos
+				Tornikes
+				Zarides Zimisces
+			}
+		}
+		names3 = {
+			weight = 10
+			first_names_male = {
+				Abas Abirad Aboughamr Aboulgharib Aleksandr Artashes Artashir Artavazd Arsen Arshak Ashot Athom Atrnerseh Avag Avedis Bagour Bagrat Bedros Boghos Davit Eshkhan Gagik Gevorg
+				Gosdantin Grigor Gurgen Hagop Hamazasp Hethum Hovhannes Hovsep Ishkhan Ivane Kapriel Khachik Khosrov Levon Malkhas Mamigon Manuel Margos Melek Mihrdat Mikayel Mleh Mushegh Mushel Mzhezh
+				Nerseh Oshin Roupen Sahag Sarkis Sevag Shahanshah Smbat Stepanos Tachat Taniel Tatoul Tigran Tornik Tovmas Thoros Trdat Vache Vachagan Vagharshak Vahag Vahan Vahram Vakhtank Varazdat Vartan Vassak Vesd Vrtanes Zakare Zarmihr
+			}
+			first_names_female = {
+				Aghavni Alitz Almasd Anahid Anna Anoush Arda Arevig Arin Baydzar Berjanoush Berjouhi Datevig Dalita Eliz_Eloise Gadar Gorandoukht Hasmig Houri Hranoush
+				Hripsimeh Keghanoush Keran Khorishah Kohar Latavri Leyli Lousin Mara Margarid_Margaret Maria Mariyam Meghranoush Nane Nazani Ovsanna Pounig Razmouhi Rita Satenik Seta Siran Sirvart
+				Srpouhi Shoushanig Takouhi Tamar Vartanoush Vartouhi Vosgi Yeva Zabel Zmroukhd
+			}
+			second_names = {
+				Burtasid Alauni Halani Shoana Senty Zmbalani Sathisi Totrazi Ovseti Tsaerasantae Aelbeg 
+				Ardasen Bekkuyzar Geber Dzarehoh Dzeby Djerdji Guyrdzybe Zaendji 
+				Kaerkuys Djykkaj Godjysa Magket Paerraesta Hetaegkat Haedarca Tuallaeg 
+				Faerniat Ephraimid Tandelat Tsaeykostae Sozana Maerzoj
+			}
+			regnal_first_names_male = {
+				John Ioannes Alexios Konstantinos Andronikos Manuel Romanos Demetrios Theodoros Michael Andreas
+				Thomas Isaakios Basileios Leon Adrianos Anastasios Herakleios Ioulianos Ioustinianos Ioustinos Konstantios Markos
+				Nikephoros Theophilos Theodosios Tiberios Traianos Alexandros Philippos Athanasios Antonios Bartholomaios Christophoros 
+				Diogenes Dionysios Eirenaios Elpidios Georgios Gregorios Hektorios Iason Kyrillos Matthaios Niketas Nikolaos Nikodemos 
+				Sergios Porphyrios Pavlos Panagiotis Petros Philemon Prokopios Stephanos
+			}
+			regnal_first_names_female = {
+				Maria Helene Eirene Theodora Zoe
+			}
+			regnal_second_names = {
+				Tzimiskes Akropolites Angelos Aoinos Apokaukos Argyros
+				Basileous Batatzes Botaneiates Boumbalis
+				Choniates Choumnos
+				Diasorenos Diogenes Doukas
+				Gabras
+				Iagaris
+				Kantakuzenos Kaukadenos Komnenos
+				Laskaris
+				Melissinos Melisurgos Mikrulakes Monomakos Mouzalon
+				Nestongos
+				Palaiologos Paraspondylos Phocas Phouskarnaki Phrangopoulos Psellos
+				Rhadinos Rhangabe Rhodocanakis Romanos
+				Syropoulos
+				Tornikes
+				Zarides Zimisces
+			}
+		}
+		names4 = {
+			weight = 10
+			first_names_male = {
+				Giorgi David Vakhtang Bagrat Alexander Erekle Konstantine Luarsab Simon Teimuraz Archil Bakar Iesse 
+				Kaihosro Rostom-Mirza Levan Demetre Stefanoz Anzori Bebur Birtveli Djurkha Gulikho Kartlos Koki 
+				Lukhum Malkhazi Mushni Okhropir Orbeli Revaz Takha Torgva Tornike Tsotne Xareba Zviadi
+				Adarnase Atrnerseh Aghsartan Aleksandre Alexander Andronik Andronicus Anzori Archili Ashot 
+				Ashot Bagrat Bakur Bagour Davit David Demetre Demetrius Demna Djavakhi Erekle Heracles 
+				Gabriel Gagiki Gagik Giorgi George Grigoli Gregory Guaram Guaram Gubaz Kviria
+				Gurgen Lupo Iese Ioane John Ishkhanik Ishkhan Iveri Jarji Kaikhosro Keykhosrau Kakhi Koba 
+				Konstantine Constantine Kvarkvare Kvirike Levan Leo Luarsab Malkhazi Malkhas Mamia Merab 
+				Mikheil Michael Mukhran Nerse Narses Nikoloz Nicholas Okhropir Orbeli Gabrieli
+				Padla Samoeli Samuel Shanshe Shahanshah Shota Simon Simon Stepanoz Stephen Sumbat Smbat 
+				Teimuraz Teimuraz Tornike Tornik Ushisha Vache Vakhtang Vakhtank Zurab Zviad
+			}
+			first_names_female = {
+				Ana Anna Baia Bedisa Borena Chiora Chito Dali Dedika Duda Dzabuli Elene Helen Eliso Endzela 
+				Gogutsa Gulchara Guliko Gulisa Gulvardi Guranduht Gorandukht Gvantsa Ia Judjuna Thamar
+				Kekela Ketevan Catherine Lamara Lamzira Lela Mariami Mariam Mathiko Mthvarisa Mzekhar Natia 
+				Nino Rusudan Sanatha Shorena Shukhia Suliko
+				Tamari Tamar Taplo Tinatini Tsiala Vardo
+			}
+			second_names = {
+				"Javakhishvili" "Jaqeli" "Sologashvili" "Tavdgiridze" "Vakhvakhishvili" 
+				"Andronikashvili" "Gurieli" "Machabeli" "Abazasdze" "Zevdginidze" "Amirejibi" "Abuladze" 
+				"Chkhetidze" "Gelovani" "Panaskerteli" "Agiashvili" "Chavchavadze" 
+				"Cholokashvili" "Diasamidze" "Shildisani" "Iashvili" "Anchabadze"
+				"Orbeliani" "Japaridze" "Jorjadze"
+				"Kakhaberisdze" "Kherkheulidze" "Khimshiashvili" "Shervashidze" "Dadiani" 
+				"Kobulashvili" "Lortkipanidze" "Machutadze" "Mikeladze" "Mkhetsidze" "Palavandishvili" Mukhrani
+			}
+			regnal_first_names_male = {
+				David Ioannes Alexios Konstantinos Andronikos Manuel Romanos Demetrios Theodoros Michael Andreas
+				Thomas Isaakios Basileios Leon Adrianos Anastasios Herakleios Ioulianos Ioustinianos Ioustinos Konstantios Markos
+				Nikephoros Theophilos Theodosios Tiberios Traianos Alexandros Philippos Athanasios Antonios Bartholomaios Christophoros 
+				Diogenes Dionysios Eirenaios Elpidios Georgios Gregorios Hektorios Iason Kyrillos Matthaios Niketas Nikolaos Nikodemos 
+				Sergios Porphyrios Pavlos Panagiotis Petros Philemon Prokopios Stephanos
+			}
+			regnal_first_names_female = {
+				Tamara Helene Eirene Theodora Zoe
+			}
+			regnal_second_names = {
+				Bagrationi Akropolites Angelos Aoinos Apokaukos Argyros
+				Basileous Batatzes Botaneiates Boumbalis
+				Choniates Choumnos
+				Diasorenos Diogenes Doukas
+				Gabras
+				Iagaris
+				Kantakuzenos Kaukadenos Komnenos
+				Laskaris
+				Melissinos Melisurgos Mikrulakes Monomakos Mouzalon
+				Nestongos
+				Palaiologos Paraspondylos Phocas Phouskarnaki Phrangopoulos Psellos
+				Rhadinos Rhangabe Rhodocanakis Romanos
+				Syropoulos
+				Tornikes
+				Zarides Zimisces
+			}
+		}
+		names5 = {
+			weight = 5
+			first_names_male = {
+				Adelfonso Agila Airmanagildo Alaricho Aloito Assur Athanagildo Berengario Diaco Fafila
+				Friedenando Friednand Froila Garçi Gonçalo Gundemar Guttier Johan Liuva Liuvericho
+				Lupo Mauregato Monnio Nunno Oliba Ordonno Pelagio Petro Ranimiro Rekkaredo
+				Rodericho Sans Silo Suneario Suniefredo Theodoricho Veremondo Wifredo Wimarano Witiza
+			}
+			first_names_female = {
+				Adelgundis Adosinda Agnes Aragonte Argilo Ava Brunechildis Egilona Eldonza Elduara
+				Elvira Ermengardis Ermenisinda Flamula Fronilde Gaudiosa Gonterote Iberia Leodegundis Menenda
+				Monnia Monniadomna Onecca Riciberga Sibilia Sisenanda Theodora Urraca Winidilda
+			}
+			second_names = {
+				Begonid Theodoricciana Erwigiana Kindasuinthiana Khintiliana Lywigildiana Sesebutiana Balthes
+			}
+			regnal_first_names_male = {
+				Alaric Ioannes Alexios Konstantinos Andronikos Manuel Romanos Demetrios Theodoros Michael Andreas
+				Thomas Isaakios Basileios Leon Adrianos Anastasios Herakleios Ioulianos Ioustinianos Ioustinos Konstantios Markos
+				Nikephoros Theophilos Theodosios Tiberios Traianos Alexandros Philippos Athanasios Antonios Bartholomaios Christophoros 
+				Diogenes Dionysios Eirenaios Elpidios Georgios Gregorios Hektorios Iason Kyrillos Matthaios Niketas Nikolaos Nikodemos 
+				Sergios Porphyrios Pavlos Panagiotis Petros Philemon Prokopios Stephanos
+			}
+			regnal_first_names_female = {
+				Theodora Helene Eirene Theodora Zoe
+			}
+			regnal_second_names = {
+				Balti Akropolites Angelos Aoinos Apokaukos Argyros
+				Basileous Batatzes Botaneiates Boumbalis
+				Choniates Choumnos
+				Diasorenos Diogenes Doukas
+				Gabras
+				Iagaris
+				Kantakuzenos Kaukadenos Komnenos
+				Laskaris
+				Melissinos Melisurgos Mikrulakes Monomakos Mouzalon
+				Nestongos
+				Palaiologos Paraspondylos Phocas Phouskarnaki Phrangopoulos Psellos
+				Rhadinos Rhangabe Rhodocanakis Romanos
+				Syropoulos
+				Tornikes
+				Zarides Zimisces
+			}
+		}
+		names6 = {
+			weight = 5
+			first_names_male = {
+				Aemilian Aemilius Aetius Albinus Alexander Alexander Anastasius Anastasius Anicius Annius Antoninus Antonius Antonius Arcadius Aurelian Aurelius
+				Avitus Belisarius Belisarius Britannicus Caecilius Caesar Caesar Carinus Carus Cassius Claudius Clementius Constans Constans Constantine Constantine
+				Constantius Constantius Cornelius Crassus Decimus Decius Diocletian Domitian Domitius Drusus Ennodius Fabianus Fabius Faustus Felix Flavianus Florian
+				Gaius Galerius Gallienus Gallus Germanus Germanus Gordian Gracchus Gratian Hadrian Adrian Herculius Heracles Honorius Joannes John Jovian
+				Julian Julian Julius Julius-Caesar Junius Justin Justin Justinian Justinian Leo Leo Leontius Leontius Liberius Licinius Lucius Magnus Magnus Marcellinus
+				Marcellus Marcian Marcus Marcus Marinus Marius Martinus Maximian Maximinus Maximus Maximus Nepotian Nerva Numerian Octavianus Octavius Otho
+				Paulinus Paulus Paul Petronius Philip Philip Pompeius Pontianus Priscus Probus Publius Quintus Romanus Roman Romulus Rufinus Rutilius Sabinianus
+				Saturninus Sempronius Septimius Sergius Sergius Severinus Severus Sextus Symmachus Symmachus Tacitus Theodosius Theodosios Tiberius Tiberius
+				Titius Titus Trajan Trajan Urbanus Valens Valentinian Valerian Valerius Valerius Venantius Vespasian Victor Victorinus Vigilius Vitalianus Volusianus
+			}
+			first_names_female = {
+				Aelia Agrippina Antonia Antonia Antonina Aquilia Aurelia Caecilia Caesaris Candida Cassia Claudia Claudia Clementia Constantia Constantia
+				Constantina Constantina Cornelia Crispina Dominica Domitiana Domna Domnina Drusilla Fausta Faustina Flacilla Flavia Fortunata Frontina Gaia Galeria
+				Gordiana Hadriana Adriana Helvia Hilara Honoria Hortensia Julia Julia Juliana Juliana Junia Justa Justina Justina Justiniana Licinia Livia Livilla Lucilla
+				Magnia Magnilla Marcella Marcia Marcia Marciana Marina Martina Martina Matrona Maxima Maximiana Messalina Minervina Minucia Modia Mustela
+				Octavia Palatina Paula Paula Paulina Paulina Petronella Petronia Petronia Placidia Plautia Plautilla Pompeia Poppaea Praeiecta Publia Pulcheria Pulcheria
+				Rusticiana Sabina Sallustia Salonina Salvianella Scantilla Serena Sergia Severa Severina Silvia Spadusa Sulpicia Tarsilla Titiana Ulpia Valeria Valeria
+				Verina Victoria Vigilantia Viviana Viviana
+			}
+			second_names = {
+				Maximianus Claudius Pompeius Sulpicius Salvius Vitellius Flavius Cocceius Traianus Hadrianus Pius
+				Verus Aurelius Helvius Didius Severus Opellius Antoninus Severus Thrax Maximus Calvinus Africanus
+				Arabs Messius Trebonianus Aemilius Valerianus Gothicus Domitius Crinitus Tacitus Dalmatius Carus Diocletianus
+				Armentarius Daia Licinianus Constantinus Iovianus Valentinianus Constantius Theodosius Marcianus Verinus
+			}
+			regnal_first_names_male = {
+				Flavius Ioannes Alexios Konstantinos Andronikos Manuel Romanos Demetrios Theodoros Michael Andreas
+				Thomas Isaakios Basileios Leon Adrianos Anastasios Herakleios Ioulianos Ioustinianos Ioustinos Konstantios Markos
+				Nikephoros Theophilos Theodosios Tiberios Traianos Alexandros Philippos Athanasios Antonios Bartholomaios Christophoros 
+				Diogenes Dionysios Eirenaios Elpidios Georgios Gregorios Hektorios Iason Kyrillos Matthaios Niketas Nikolaos Nikodemos 
+				Sergios Porphyrios Pavlos Panagiotis Petros Philemon Prokopios Stephanos
+			}
+			regnal_first_names_female = {
+				Eudokia Helene Eirene Theodora Zoe
+			}
+			regnal_second_names = {
+				Heraclius Akropolites Angelos Aoinos Apokaukos Argyros
+				Basileous Batatzes Botaneiates Boumbalis
+				Choniates Choumnos
+				Diasorenos Diogenes Doukas
+				Gabras
+				Iagaris
+				Kantakuzenos Kaukadenos Komnenos
+				Laskaris
+				Melissinos Melisurgos Mikrulakes Monomakos Mouzalon
+				Nestongos
+				Palaiologos Paraspondylos Phocas Phouskarnaki Phrangopoulos Psellos
+				Rhadinos Rhangabe Rhodocanakis Romanos
+				Syropoulos
+				Tornikes
+				Zarides Zimisces
+			}
+		}
+		names7 = {
+			weight = 5
+			first_names_male = {
+				Ale Alfr Alfgeir Anders Anlaufr Anundr Arnbjörn Arngrimr Arni Arnfast Asbjörn Bagge Baldr Barid Bengt Bersi Bertil Birger Björn Bo Borkvard Botulfr Bragi
+				Dag Dan Dyre Eilif Egill Emund Einarr Eirikr Eskild Falki Faste Filip Fredrik Frirek Frode Freyr Folki Gandalfr Geirr Georg Gnupa Gorm Greger Grimr Gudmundr Gudröd Gunnarr Hakon Halsten Haraldr Haukr Helgi
+				Hemming Holmger Hrafn Hrolfr Hrane Hæsteinn Hjalmar Hrothgar Hrothulfr Hrörekr Rurik Hysing Ingólfr Ingemar Ingjald Ivar Jedvard Jon Karl Kettil Kettilmund Kjartan Klas Knut Kol Kolbjörn Magnus Markus
+				Mats Nils Niklas Oddr Ofeig Olafr Ormr Ottarr Refr Refil Ragnarr Rikulfr Rögnvaldr Skuli Snorri Sigbjörn Sigtrygg Sigurdr Starkadr Steinn Sturla Styrbjörn Styrkar Suni Sveinn
+				Sverker Sæmundr Sölvi Sörkver Tjudmund Toke Tolir Torbjörn Torfinn Torbrandr Tordr Torgil Torsteinn Torolfr Toste Totil Tryggve Tyke Ulfr Vagn Valdemar Ake Yngvar Örvar Öysteinn
+			}
+			first_names_female = {
+				Aleta Alfhildr Alfridh Alvör Anna Asa Aslaug Asta Astrid Beata Birgitta Björg Bodil Bothildr Cecilia
+				Edla Elin Elisabet Freyja Gerdr Glod Grima Gunnhildr Gurli Gudrun Gyla Gyrid Gytha Hafrid Halla Helena Holmfrid
+				Iliana Inga Ingfrid Ingibjörg Ingjerdr Ingrid Karin Katarina Kraka Kristina Linda Maer
+				Malmfrid Margareta Maria Rikissa Rögnfrid Rögnhildr Saga Sara Sif Sigrid Skuld Sofia
+				Svanhild Ulfhildr Vigdis Ylva Yrsa Thora Thordis Thyra
+			}
+			second_names = {
+				"af Torgar" Svavarsson Flatnefr Hjort Vidfamne "av Island" Drake "av Hafrsfjord" Ytra "av Asko"
+				Koss "av Rora" "av Nordland" Hylling Alfr Herja Vanso Flod "af Vendel" "av Alfheim" "af Aland" Gardske
+			}
+			regnal_first_names_male = {
+				Harald Ioannes Alexios Konstantinos Andronikos Manuel Romanos Demetrios Theodoros Michael Andreas
+				Thomas Isaakios Basileios Leon Adrianos Anastasios Herakleios Ioulianos Ioustinianos Ioustinos Konstantios Markos
+				Nikephoros Theophilos Theodosios Tiberios Traianos Alexandros Philippos Athanasios Antonios Bartholomaios Christophoros 
+				Diogenes Dionysios Eirenaios Elpidios Georgios Gregorios Hektorios Iason Kyrillos Matthaios Niketas Nikolaos Nikodemos 
+				Sergios Porphyrios Pavlos Panagiotis Petros Philemon Prokopios Stephanos
+			}
+			regnal_first_names_female = {
+				Tora Helene Eirene Theodora Zoe
+			}
+			regnal_second_names = {
+				Hardrada Akropolites Angelos Aoinos Apokaukos Argyros
+				Basileous Batatzes Botaneiates Boumbalis
+				Choniates Choumnos
+				Diasorenos Diogenes Doukas
+				Gabras
+				Iagaris
+				Kantakuzenos Kaukadenos Komnenos
+				Laskaris
+				Melissinos Melisurgos Mikrulakes Monomakos Mouzalon
+				Nestongos
+				Palaiologos Paraspondylos Phocas Phouskarnaki Phrangopoulos Psellos
+				Rhadinos Rhangabe Rhodocanakis Romanos
+				Syropoulos
+				Tornikes
+				Zarides Zimisces
+			}
+		}
+	}
+}

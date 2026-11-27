@@ -1,0 +1,18 @@
+﻿l_english:
+
+ MYNL_SLAVIC_INDUSTRIALNA_VOJSKA:0 "Industrialna Vojska $R$"
+ MYNL_SLAVIC_POSLE_ATOMSKA_VOJSKA:0 "Posle-atomska Vojska $R$"
+ MYNL_SLAVIC_PRIMITIVCI:0 "Primitivci $R$"
+ MYNL_SLAVIC_R_ANDROIDI:0 "$R$ Androidi"
+ MYNL_SLAVIC_R_AVTOMATICHESKIE_OKKUPANTY:0 "$R$ Avtomaticheskie okkupanty"
+ MYNL_SLAVIC_R_AVTOMATY:0 "$R$ Avtomaty"
+ MYNL_SLAVIC_R_BRATSKA_LEGIJA:0 "$R$ Bratska Legija"
+ MYNL_SLAVIC_R_LODSTVO:0 "$R$ Lodstvo"
+ MYNL_SLAVIC_R_NIEWOLNICY:0 "$R$ Niewolnicy"
+ MYNL_SLAVIC_R_OKKUPANTY:0 "$R$ Okkupanty"
+ MYNL_SLAVIC_R_SPECNAZ:0 "$R$ Specnaz"
+ MYNL_SLAVIC_R_STRELCI:0 "$R$ Strelci"
+ MYNL_SLAVIC_R_VOJSKA:0 "$R$ Vojska"
+ MYNL_SLAVIC_R_WIEDZMINI:0 "$R$ Wiedzmini"
+ MYNL_SLAVIC_R_ZVERI:0 "$R$ Zveri"
+ name_list_slavic:0 "Slavic"

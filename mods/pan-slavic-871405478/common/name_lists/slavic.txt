@@ -1,0 +1,413 @@
+﻿### Slavic
+slavic = {
+	randomized = no
+
+	ship_names = {
+
+		generic = { Arhangelsk Kaluga Smolensk Saransk Podolsk Orjol Kostroma Tambov Angarsk Pskov Bijsk Krasnogorsk Berezniki Odinstvo Kovrov
+		Liski Svobodny Vjaazma Arsenjev Novgorod Kazan Omsk Ufa Krasnojarsk Volgograd Jaroslavl Harkiv Odesa Dnipro Doneck Zaporizhia Lviv Mykolaiv 
+		Mariupol Sevastopol Simferopol Luhansk Herson Poltava Cherkasy Zhytomir Salihorsk Zhodzina Slutsk Ljuban Kletsk Lahojsk Vitebsk Orsha Polock
+		Mogilev Horki Gomel Mazyr Zhlobin Vietka Brest Pinsk Grodno Wroclaw Lodz Poznan Gdansk Szczecin Lublin Katowice Gdynia Radom Olsztyn Rybnik 
+		Opole Tarnow Kalisz Legnica Slupsk Jaworzno Lubin Radomsko Brno Ostrava Plzen Liberec Olomouc Zlin Kadno Opava Karvina Jihlava Teplice Decin
+		Most Kosice Presov Zilina Nitra Trnava Poprad Zvolen Michalovce Humenne Levice Pezinok Hlohovec Brezno Senica Snina Senec Sered Skalica Levoca
+		Trstena Tornala Rajec Poltar Split Pristina Nis "Banja Luka" Maribor Osijek Zadar Kragujevac Tuzla Subotica Pula Zenica Mitrovica Prizren Niksic
+		Bitola Cacak Kumanovo Kraljevo Karlovac Tetovo Pec Zrenjanin Pancevo Leskovac Uzice Krusevac Valjevo Smederevo Bijeljina Sombor Vranje Prilep Sabac
+		Pozarevac Stip Sesvete Bocca Plovdiv Varna Brugas Ruse Pleven Dobrich Sliven Shumen Pernik Haskovo Pazardzhik Blagoevgrad Vraca Gabrovo Asenovgrad
+		Vidin Dimitrovgrad Silistra Dupnica 
+		}
+		
+		battleship = { Moskva Petrograd Warszawa Krakow Praha Kiev Minsk Bratislava Zagreb Beograd Ljubljana Sarajevo Podgorica Sofija Skopje 
+		}
+
+		titan = { Slavija
+		}
+
+		colossus = { Olbrzym Kolos Ogrom Velikan
+		}
+		
+		science = {
+			Tesla Pupin Kwolek Asimov Barti Borodin Lomonosov Chersky Dokuchaev Golicyn Klenova Kulik Bolotov Gamaleja Gmelin Kolcov Oparin Pavlov Serbskij Godunov 
+			Kovalevskaja Sklodowska Mendelejev Koroljov Kopernik Witeliusz Strus Remak Capek Heyrovsky Krizik Jansky Brebera Wichterle Maric Kostovic 
+		}
+		
+		colonizer = {
+			Gagarin "Jaroslav II" Nikitin Timofejevic Pjanda Beketov Moskvitin Pojarkov Petlin Khabarov Popov Atlasov Gvozdev Chirikov Malygin Ovcyn Minin Laptev
+			Shelikov Rezanov Baranov Lisjanskij Lazarev Vilkickij Urvancev Ushakov Papanin Somov Treshnikov Tolstikov Tereshkova Chilingarov 
+		}
+		
+		constructor = {
+			Karosa Skoda Zbrojovka SOR TEDOM Inekon CZUB Tatra Meopta Matador Slovalco Bata Fablok Azoty Lucznik Mostostal Zortrax PZL Zrak Igman Pretis TEREM BELMA Zastava Utva
+			Antonov KMDB Fort Juzhmash IZHMASH OAK Oboronprom Almaz-Antej КТРВ Uralvagonzavod Sozvezdie KAMAZ 
+		}
+		
+		transport = {
+			Lajka Belka Strelka Pchjolka Mushka Chermushka Zvjozdochka Veterok Ugoljok Dezik Cygan Lisa Ryzhik Smelaja Malyshka Bobik ZIB Otvazhnaja Snezhinka
+			Marfusha Albina Cyganka Damka Krasavka Bars Lisichka Chajka Dymka Modnica Kozjavka Pushok 
+		}
+		
+	}
+
+	fleet_names = {
+
+		sequential_name = MYNL_SLAVIC_R_LODSTVO
+	}
+	
+	army_names = {
+		generic = { 
+			sequential_name = MYNL_SLAVIC_R_VOJSKA
+		}
+
+		assault_army = {
+			sequential_name = MYNL_SLAVIC_R_STRELCI
+		}
+		
+		slave_army = {
+			sequential_name = MYNL_SLAVIC_R_NIEWOLNICY
+		}
+		
+		clone_army = {
+			sequential_name = MYNL_SLAVIC_R_BRATSKA_LEGIJA
+		}
+		
+		robotic_army = {
+			sequential_name = MYNL_SLAVIC_R_AVTOMATY
+		}
+		
+		android_army = {
+			sequential_name = MYNL_SLAVIC_R_ANDROIDI
+		}
+		
+		psionic_army = { 
+			sequential_name = MYNL_SLAVIC_R_WIEDZMINI
+		}
+		
+		xenomorph_army = {
+			sequential_name = MYNL_SLAVIC_R_ZVERI
+		}
+		
+		gene_warrior_army = {
+			sequential_name = MYNL_SLAVIC_R_SPECNAZ
+		}
+		
+		occupation_army = {
+			sequential_name = MYNL_SLAVIC_R_OKKUPANTY
+		}
+
+		robotic_occupation_army = {
+			sequential_name = MYNL_SLAVIC_R_AVTOMATICHESKIE_OKKUPANTY
+		}
+
+		primitive_army = {
+			sequential_name = MYNL_SLAVIC_PRIMITIVCI
+		}
+		industrial_army = {
+			sequential_name = MYNL_SLAVIC_INDUSTRIALNA_VOJSKA
+		}
+		postatomic_army = {
+			sequential_name = MYNL_SLAVIC_POSLE_ATOMSKA_VOJSKA
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Novidom" "Nowyswiat" Nada Budoucnost Sleska Luzica Milczania Czornebohova Spandov Karpaty Pomorsko
+				Podlasie Liberec Pardubice Holomoc Trnava Nitra Tatry Vah Karpaty Fatra Odra Vitava Sudety Mazuria 
+				Lukajno Kaszebe Mazowsze Rysy Stajerska Litija Slivna Kocevje Prekmurje Kranjska Dubrovnik Cres Krk
+				Sava Drava Dunav Vukovar Bled Zeta Skadar Orjen Lovcen Kozara Treskavica Grmec Prenj Mostar Vojvodina
+				Macva Sumadija Uzice Drina Prahovo Osogovo Ohrid Vardar "Golem Grad" Sar Rodopi Rila Pirin Istar Struma
+				Dobrudza Razgrad Loznica Pripjat Dnjapro Viciebsk Bierascie Hrodna Donec Dnister Azov Don Kuban Volyn 
+				Luhansk Poltava Odesa Krasnojarsk Krasnodar Jenisej Karelija Kamchatka Okhotsk Pechora Lena Bajkal 
+				Stanovoj Sakhalin Elbrus Kuril Verhojansk Sochi Novgorod Novigrad Omsk Tomsk Rjazan Vjatka Tver Beskidy
+				Szczecin Wisla Karkonosze Oswiecim Leba 
+			}
+		}
+		
+		pc_desert = {
+			names = {
+				Peklo Inferno Ryn "Velky Poust" Voskhod Svitani Dazhbog Chernobog 
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				Gaszcz Prasuma "Ohromny Les" Lada Berstuk Percunatele Porewit 
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				Svarog Flins Kresnik Peklenc Zislbog Zeme
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				Destiny Bastion Citadel Dawnlight Myndos Thebes Camelot Zaria Ziva Zorja 
+				Triglav Dogoda Dziewona Dzydzilelya Ipabog Juthrbog Karewit Koliada Marzyana
+				"Matka Gabia" Mokosh Ozwiena Belozero Ilmen 
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+				 Vesna Rod Radegast Tawals Zywie Zlatoust
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				Veles Dodola Kupala	Pereplut Podaga Morava Rijeka "Ostrova Diomida" 
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+				Rugiewit Siebog Sudice Varpulis Jakutija Sibir
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+				Morana Belobog Marowit Zirnitra Snezka Belehrad
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+
+character_names = {
+
+	names1 = {
+			weight = 100
+
+		first_names_male = {
+		Aleksandr Aleksej Anatolij Andrej Anton Arkadij Arsenij Bogdan Boris Vadim Valentin Vasilij Viktor Vitalij Vladimir Vladislav 
+		Vsevolod Viacheslav Gavril Gennadij Georgij Gleb Grigorij Danil Dmitrij Evgenij Ivan Ignatij Igor Illarion Ilia Iosif Kirill 
+		Konstantin Lev Leonid Maksim Mihail Nikita Nikolaj Oleg Pavel Piotr Rodion Roman Rostislav Ruslan Semion Sergej Stanislav Stepan Timofej Jurij 
+		}
+
+		second_names = {
+		Aleksandrov Aleksejev Andrejev Antonov Bogdanov Borisov Fjodorov Ivanov Konstantinov Kozlov Kuznetsov Lagunov Maksimov Markov Mikhailov Nikolajev Orlov Pavlov 
+		Petrov Popov Sokolov Vasilijev Volkov Voronin 
+		}
+
+	}
+			
+	names2 = {
+			weight = 100
+
+		first_names_female = {
+		Aleksandra Alina Aljona Anastasija Anna Antonina Anzhelika Vera Valerija Vasilisa Veronika Valentina Viktorija Alina Darja Diana Ekaterina Elena Elizaveta Evgenija 
+		Eva Zoja Zlata Irina Klara Klavdija Ksenija Kristina Larisa Lilija Ljudmila Marina Marija Nadezhda Natalja Polina Rada Svetlana Sofija Tamara Tatiana Uljana 
+		Fedosija Julija 
+		}
+
+		second_names = {
+		Aleksandrova Aleksejeva Andrejeva Antonova Bogdanova Borisova Fjodorova Ivanova Konstantinova Kozlova Kuznetsova Lagunova Maksimova Markova Mikhailova Nikolajeva Orlova 
+		Pavlova Petrova Popova Sokolova Vasilijeva Volkova Voronina 
+		}
+
+	}
+		
+	names3 = {
+			weight = 100
+			
+		first_names_male = {
+		Aleksandar Adam Andrej Atanasije Blagoje Bogdan Bojan Borislav Bozidar Branimir Bratislav Cedomir Dalibor Damir Danilo Darko Dejan Dimitrije Dmitar Dragan Dragomir 
+		Dragoslav Dusan Filip Goran Ilija Ivan Konstantin Lazar Ljubomir Luka Marjan Mihajlo Milan Milorad Miroslav Nebojsa Nemanja Nikola Novak Pavle Petar Radomir Radoslav 
+		Radovan Ratimir Slaven Slavomir Slobodan Stanislav Stefan Svetomir Velibor Velimir Veselin Vlastimir Vuk Zdravko Zelimir Zeljko 
+		}
+		
+		first_names_female = {
+		Aleksandra Ana Anastasija Andela Biljana Biserka Bogdana Bojana Bozena Branislava Cvetka Dajana Danica Divna Dragana Dragica Dragoslava 
+		Dubravka Dunja Dusanka Emilija Gordana Hristina Irena Ivana Jadranka Jagoda Jasna Jelena Jelisaveta Jelka Jovana Julijana Katarina 
+		Kristina Ksenija Ljiljana Ljubica Marija Marina Melanija Mila Milena Mira Mladenka Natalija Olga Radmila Senka Slavica Snezana 
+		Sofija Stanislava Suzana Svetlana Tatjana Valerija Vera Vesna Visnja Zdravka Zorana 
+		}
+
+		second_names = {
+		Bogdanovic Brankovic Dragic Filipovic Gavrilovic Ilic Ivanovic Jankovic Jovanovic Knezevic Kovac Lukic Markovic Mihajlovic Milosevic Nikolic Pavlovic Petrovic Radic Stefanovic Stojanovic Vukovic Zivkovic 
+		}
+
+	}
+		
+	names4 = {
+			weight = 100
+
+		first_names_male = {
+		Adam Bosko Aleksander Aleksy Ambrozy Anastazy Andrzej August Bartek Bartosz Bogdan Bogumil Boguslaw Boleslaw Borys Bozydar Bratumil Bronimir Bronislaw Cyryl Czcibor Czeslaw Daniel Darek Dobrogost Dobromil Dobroslaw Eliasz Emil Feliks Filip Franciszek Igor Iwan Jacek Jacenty Jan Janusz
+		 Jarogniew Jaromir Jaropelk Jaroslaw Julek Kamil Karol Kazimierz Konstantyn Krzesimir Krzysztof Lechoslaw Lew Lubomierz Lukasz Maciej Maksym Marek Marian Metody Michal Mieczyslaw Mikolaj Milogost Miloslaw Milosz Miroslaw Mscislaw Patryk Pawel Piotr Przemyslaw Radomil Radoslaw Radzimierz Roman 
+		 Sergiusz Slawomir Sobieslaw Stanislaw Stefan Stefek Sulislaw Swietomierz Swietopelk Sylwester Szczepan Szczesny Tomasz Tomek Waclaw Warcislaw Wieceslaw Wielislaw Wladyslaw Wlodzimierz Wlodzislaw Wojciech Zawisza Zdzoslaw Ziemowit 
+		}
+
+		second_names = {
+		Bosko Brzezicki Budny Bukowski Chlebek Czajkowski Dubanowski Dubicki Dunajski Dziedzic Filipowski Gniewek Gomolka Gorecki Janowski Jaskolski Kaminski 
+		Kowalczyk Kowalski Kozlow Krakowski Ostrowski Poplawski Rudawski Sniegowski Sokolsky Wojewoda 
+		
+		}	
+	}
+
+	names5 = {
+			weight = 100
+
+		first_names_female = {
+		Agnieszka Albina Aleksandra Anastazja Andzelika Ania Anita Anna Bogdana Bogumila Boguslawa Boleslawa Bozena Bronislawa Czeslawa Danka Daria Dobroslawa Ewa Halina 
+		Helena Ignacja Jagoda Jaroslawa Jowita Julia Julita Kalina Kamila Karina Kasandra Katarzyna Kazimiera Klara Krystyna Ksenia Lechoslawa Lucja Ludmila Malina 
+		Maria Melania Mieczyslawa Milena Mira Miroslawa Nadzieja Natalia Natasza Olga Radomila Radoslawa Roksana Roza Slawomira Sobieslawa Stanislawa Tamra Tatiana 
+		Urszula Waclawa Walentyna Wera Weronika Wielislawa Zoja 
+		}
+
+		second_names = {
+		Bosko Brzezicka Budna Bukowska Chlebek Czajkowska Dubanowska Dubicka Dunajska Dziedzic Filipowska Gniewek Gomolka Gorecka Janowska Jaskolska Kaminska Kowalczyk 
+		Kowalska Kozlowa Krakowska Ostrowska Poplawska Rudawska Sniegowska Sokolska Wojewoda 
+		
+		}
+	}
+	names6 = {
+			weight = 100
+
+		first_names_male = {
+		Aleksej Anatolij Andrij Anton Artem Bohdan Bohuslav Borys Demjan Dmytro Fedir Havrjil Hryhorij Ihor Ivan Kostjantyn Kyrylo Leonid Maksym Marko Mykhajlo 
+		Mykola Mykyta Oleksandr Pavlo Petro Roman Ruslan Serhij Stanislav Svjatoslav Vasyl Vitalij Volodymyr Vsevolod Jaroslav Jevhen Jurij 
+		}
+
+		first_names_female = {
+		Albina Anastasija Anna Bohuslava Darija Halyna Iryna Julija Kalyna Kateryna Khrystina Klara Klavdija Larysa Lilija Ljuba Ljudmila Maria Marina Mila 
+		Oksana Olena Olha Sofija Tamara Vira Jaroslava Zoja 
+		}
+
+		second_names = {
+		Andrijchuk Antonenko Belenko Bohatenko Bondarenko Bojko Holub Huba Hrytsenko Gogol Danilenko Ivanenko Kovalchuk Kravec Lukashenko Loboda 
+		Makarenko Petrenko Rodchenko Tymoshchuk Janukovich 
+		}
+	}
+	names7 = {
+			weight = 100
+
+		first_names_male = {
+		Alexandr Ambroz Andel Andrej Antonin Bartolomej Bedrich Bohdan Bohumil Bohumir Bohuslav Boleslav Borivoj 
+		Branislav Ctibor Ctirad Cyril Dalibor Dalimil Daniel Dobromil Dobroslav Drahomir Drahoslav Dusan Emil 
+		Evzen Filip Frantisek Havel Ivan Jan Jarmil Jaromir Jaroslav Kamil Kazimir Krystof Ladislav Lubomir 
+		Lukas Matous Matyas Metodej Michal Mikolas Milan Milos Miloslav Miroslav Mstislav Otakar Pavel Petr 
+		Premysl Radek Radko Radomil Radoslav Radovan Roman Rostislav Simon Slavormir Stanislav Stepan Svatopluk 
+		Tomas Vaclav Vladan Vladimir Vladislav Vlastimil Vlastislav Vojtech Vratislav Zavis Zbynek Zdislav 
+		}
+
+		second_names = {
+		Bakes Behounek Borovsky Capek Cech Celakovsky Celansky Cermak Dobrovsky Dosek Drobny Drozdov Dudek 
+		Hadek Holub Hradecky Hrozny Hruska Jahoda Jansky Klima Konecny Kopriva Krajicek Mukarovsky 
+		}
+	}
+	names8 = {
+			weight = 100
+
+		first_names_female = {
+		Adela Alzbeta Angelika Anna Bela Bohumila Bohuslava Boleslava Bozena Branislava Danica Dobroslava 
+		Doubravka Drahomira Drahoslava Dusana Helena Ivana Jana Jarmila Jaroslava Jirina Kveta Ladislava 
+		Libena Ljuba Ludmila Masa Mila Milada Milena Miloslava Nadezda Nina Olga Pavlina Radana Radka 
+		Radmila Radoslava Ruzena Slavena Stanislava Svetlana Tatiana Vaclava Vera Vladimira Zdenka Zdislava 
+		}
+
+		second_names = {
+		Bakesova Behounekova Borovska Capekova Cechova Celakovska Celanska Cermakova Dobrovska Dosekova Drobna Drozdova Dudekova 
+		Hadekova Holubova Hradecka Hrozna Hruskova Jahodova Janska Klimova Konecna Koprivova Krajicekova Mukarovska 
+		}
+	}
+	names9 = {
+			weight = 100
+
+		first_names_male = {
+		Aleksandar Andrej Blagoj Blagun Bogdan Bogomil Bojidar Boris Borislav Bojan Bojko Bozhidar Branimir
+		Danail Desislav Dejan Dragan Dragomir Gavrail Genadi Georgi Grozdan Hristofor Ilija Ivan Kamen 
+		Kiril Konstantin Krasimir Kastjo Lazar Ljuben Ljubomir Marko Mihail Milan Miroslav Mladen Momchil 
+		Naum Najden Nikolaj Ognjan Pavel Petar Radko Radomir Radoslav Rajko Rumen Sava Sergej Spas Stanimir 
+		Stanislav Stojan Svetomir Svetoslav Tihomir Cvetan Valko Vasil Venceslav Vladimir Vladislav Jasen Zdravko 
+		Zheljazko Zhivko Zlatan 
+		}
+
+		second_names = {
+		Aleksandrov Antonov Bogdanov Bozhkov Chakarov Chervenkov Dimitrov Dobrev Galabov Gavrilov Georgiev Goranov 
+		Gospodinov Hristov Ivanov Kolarov Konev Lazarov Marinov Markovski Mihajlov Milev Nikolov Petkov Popov 
+		Radulov Kakovski Rusev Savov Sokolov Stojanov Tarnovski Topalov Vasilev Velikov Vladimirov Jankov 
+		}
+	}
+	names10 = {
+			weight = 100
+
+		first_names_female = {
+		Ana Anastasija Biljana Bisera Bistra Blaga Blagorodna Bogdana Borislava Bojana Bozhidara Darina Denica 
+		Desislava Elisaveta Eva Grozdana Hristina Iskra Iva Kalina Krasimira Lala Liljana Ljudmila Malina Marija
+		Mila Milena Mira Nadejda Nevena Olga Rada Radoslava Rosa Ruzha Snezhana Sofija Stanislava Stojanka 
+		Svetlana Cvetanka Julija Zhivka Zora Zornica 
+		}
+
+		second_names = {
+		Aleksandrova Antonova Bogdanova Bozhkova Chakarova Chervenkova Dimitrova Dobreva Galabova Gavrilova Georgieva Goranova 
+		Gospodinova Hristova Ivanova Kolarova Koneva Lazarova Marinova Markovska Mihajlova Mileva Nikolova Petkova Popova 
+		Radulova Rakovska Ruseva Savova Sokolova Stojanova Tarnovsk Topalova Vasileva Velikova Vladimirova Jankova 
+		}
+	}
+	names11 = {
+			weight = 100
+
+		first_names_male = {
+		Aleksander Aleksej Alen Aljosa Amadej Andraz Andrej Bogdan Bogomir Bojan Boris Borislav Bosko 
+		Bozidar Branimir Branislav Branko Ciril Crtomir Cvetko Dalibor Damir Darko Davor Dejan Dimitrij 
+		Dragan Drago Dragomir Dragoslav Dragutin Dusan Emil Francisek Gal Goran Igor Ivan Josip Jurij 
+		Ladislav Luka Marijan Marko Milan Milivoj Milos Miran Mirko Miroslav Nikola Pavel Peter Samo 
+		Slavko Srecko Stanislav Stojan Tomislav Uros Vinko Vitomir Vladimir Vladislav Zdenko Zdravko 
+		Zeljko Zlatan Zlatko Zoran 
+		}
+
+		first_names_female = {
+		Aleksandra Alena Ana Anastazija Angela Bogdana Bojana Bozena Branislava Cvetka Daliborka Danica Darija Dejana Dijana 
+		Draga Dragica Dunja Dusanka Eva Irena Ivana Jadranka Jelena Julija Katarina Klara Kristina Ksenija Lara Liljana Ljerka 
+		Ljuba Ljubica Ljudmila Lucija Marija Marina Melanija Mihaela Milena Milica Milka Mora Miroslava Nada Natalija Natasa 
+		Olga Pavlina Radana Roza Slavica Slavka Stanislava Tamara Tatjana Vesna Vladimira Zdenka Zdravka Ziva Zlata Zora 
+		}
+
+		second_names = {
+		Avsenik Babnik Bozic Golicic Gregoric Hocevar Horvat Hribar Janez Jurkovic Kapic Kastelic Klemencic Knavs Kopitar Korosec
+		Kosir Kotnik Kovac Krajnc Loncar Marusic Mlakar Novak Oresnik Pirjevec Planinc Potocnik Savnik Vovk Vrhovec Zbogar Zdovc 
+		}
+	}
+	names12 = {
+			weight = 100
+			
+
+		first_names_male = {
+		Alexej Andrej Bohumil Bohuslav Branislav Branko Ctirad Cyril Dalibor Dalimil Dominik Drahoslav 
+		Dusan Gabriel Gregor Havel Ivan Jakub Jan Jaroslav Juraj Kajetan Kamil Kazimir Ladislav Lubormir
+		Lukas Marek Marian Matej Metod Michal Mikulas Milan Milos Miloslav Ondrej Pavol Radovan Slavomir 
+		Stanislav Tomas Vaclav Vladan Vladimir Vladislav Vojtech Vratislav Zdenko  
+		}
+
+		second_names = {
+		Obecny Kovac Toth Nagy Horvath Varga Molnar Polak Novak Pavlik Oravec Hudec Hornak Sykora Chovanec Novotny 
+		}
+
+		}
+	names13 = {
+			weight = 100
+			
+
+		first_names_female = {
+		Alena Alica Amalia Anastazia Andrea Angela Anna Blanka Bozena Branislava Branka Dana Danica Darina Dusana 
+		Elena Eva Ivana Ivanka Jana Jarmila Jaroslava Julia Justina Kamila Katarina Klara Ladislava Luba Lubica 
+		Lucia Maria Marketa Melania Miroslava Nadezda Natalia Nina Olga Stanislava Svetlana Tamara Tatoama Veronika 
+		Vladimira Zdenka Zlata Zora Zuzana 
+		}
+
+		second_names = {
+		Obecna Kovacova Tothova Nagyova Horvathova Vargova Molnarova Polakova Novakova Pavlikova Oravecova Hudecova Hornakova Sykorova Chovanecova Novotna 
+		}
+
+		}
+}
+}
